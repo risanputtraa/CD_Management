@@ -1,0 +1,1983 @@
+[
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Modelling Product Content",
+    "level": 1,
+    "tasks_per_person_per_day": 7.5
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Modelling Product Content",
+    "level": 2,
+    "tasks_per_person_per_day": 3.5
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Modelling Product Content",
+    "level": 3,
+    "tasks_per_person_per_day": 1.8
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Modelling Product Content",
+    "level": 4,
+    "tasks_per_person_per_day": 0.85
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Modelling Product Content",
+    "level": 5,
+    "tasks_per_person_per_day": 0.5
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Modelling Environment",
+    "level": 1,
+    "tasks_per_person_per_day": 5.5
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Modelling Environment",
+    "level": 2,
+    "tasks_per_person_per_day": 1.8
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Modelling Environment",
+    "level": 3,
+    "tasks_per_person_per_day": 0.3
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Modelling Character",
+    "level": 1,
+    "tasks_per_person_per_day": 4.0
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Modelling Character",
+    "level": 2,
+    "tasks_per_person_per_day": 1.0
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Modelling Character",
+    "level": 3,
+    "tasks_per_person_per_day": 0.5
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Modelling Character on CC",
+    "level": 1,
+    "tasks_per_person_per_day": 25.0
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Modelling Character on CC",
+    "level": 2,
+    "tasks_per_person_per_day": 18.5
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Modelling Character on CC",
+    "level": 3,
+    "tasks_per_person_per_day": 3.5
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Texturing Product Content",
+    "level": 1,
+    "tasks_per_person_per_day": 6.5
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Texturing Product Content",
+    "level": 2,
+    "tasks_per_person_per_day": 3.0
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Texturing Product Content",
+    "level": 3,
+    "tasks_per_person_per_day": 1.0
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Texturing Product Content",
+    "level": 4,
+    "tasks_per_person_per_day": 0.5
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Texturing Environment Interior",
+    "level": 1,
+    "tasks_per_person_per_day": 2.3
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Texturing Environment Interior",
+    "level": 2,
+    "tasks_per_person_per_day": 0.4
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Texturing Environment Exterior",
+    "level": 1,
+    "tasks_per_person_per_day": 1.2
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Texturing Environment Exterior",
+    "level": 2,
+    "tasks_per_person_per_day": 0.3
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Texturing Character's Skin and Hair",
+    "level": 1,
+    "tasks_per_person_per_day": 3.6
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Texturing Character's Skin and Hair",
+    "level": 2,
+    "tasks_per_person_per_day": 2.3
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Texturing Character's Skin and Hair",
+    "level": 3,
+    "tasks_per_person_per_day": 2.0
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Texturing Clothe''s Skin",
+    "level": 1,
+    "tasks_per_person_per_day": 7.3
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Texturing Clothe''s Skin",
+    "level": 2,
+    "tasks_per_person_per_day": 3.0
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Environment 3D Assembly",
+    "level": 1,
+    "tasks_per_person_per_day": 7.0
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Environment 3D Assembly",
+    "level": 2,
+    "tasks_per_person_per_day": 3.0
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Mechanical 3D Scenario Assembly",
+    "level": 1,
+    "tasks_per_person_per_day": 3.0
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Mechanical 3D Scenario Assembly",
+    "level": 2,
+    "tasks_per_person_per_day": 0.5
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Mechanical 3D Scenario Assembly",
+    "level": 3,
+    "tasks_per_person_per_day": 0.4
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Character 3D Cloth Assembly",
+    "level": 1,
+    "tasks_per_person_per_day": 44.0
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Character Animation",
+    "level": 1,
+    "tasks_per_person_per_day": 7.0
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Character Animation",
+    "level": 2,
+    "tasks_per_person_per_day": 4.5
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Character Animation",
+    "level": 3,
+    "tasks_per_person_per_day": 2.3
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Mechanical Animation",
+    "level": 1,
+    "tasks_per_person_per_day": 8.5
+  },
+  {
+    "page": 1,
+    "department": "3D Artist",
+    "task_type_name": "Mechanical Animation",
+    "level": 2,
+    "tasks_per_person_per_day": 4.5
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Mechanical Animation",
+    "level": 3,
+    "tasks_per_person_per_day": 3.5
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "VFX Animation",
+    "level": 1,
+    "tasks_per_person_per_day": 7.5
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "VFX Animation",
+    "level": 2,
+    "tasks_per_person_per_day": 2.0
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "VFX Animation",
+    "level": 3,
+    "tasks_per_person_per_day": 1.4
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "360 Item Animation",
+    "level": 1,
+    "tasks_per_person_per_day": 32.5
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Camera Cinematic Blender",
+    "level": 1,
+    "tasks_per_person_per_day": 16.5
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Character Rigging",
+    "level": 1,
+    "tasks_per_person_per_day": 3.9
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Character Rigging",
+    "level": 2,
+    "tasks_per_person_per_day": 2.8
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Character Rigging",
+    "level": 3,
+    "tasks_per_person_per_day": 2.3
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Rigging Character on Rigify",
+    "level": 1,
+    "tasks_per_person_per_day": 16.0
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Character Cut and Weightpaint",
+    "level": 1,
+    "tasks_per_person_per_day": 29.8
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Mechanical Rigging",
+    "level": 1,
+    "tasks_per_person_per_day": 6.5
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Mechanical Rigging",
+    "level": 2,
+    "tasks_per_person_per_day": 3.1
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Mechanical Rigging",
+    "level": 3,
+    "tasks_per_person_per_day": 2.5
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Render Preparation Mix",
+    "level": 1,
+    "tasks_per_person_per_day": 12.0
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Render Preparation Image",
+    "level": 1,
+    "tasks_per_person_per_day": 25.3
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Render Preparation Anim 360",
+    "level": 1,
+    "tasks_per_person_per_day": 22.0
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Render Preparation Cinematic",
+    "level": 1,
+    "tasks_per_person_per_day": 17.0
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Pembuatan Scenario 3D (Unity)",
+    "level": 1,
+    "tasks_per_person_per_day": 105.0
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Pembuatan Scenario 3D (Unity)",
+    "level": 2,
+    "tasks_per_person_per_day": 55.0
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Pembuatan Scenario 3D (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 105.0
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Pembuatan Scenario 3D (Unreal)",
+    "level": 2,
+    "tasks_per_person_per_day": 55.0
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Pembuatan Scenario 3D (VBS)",
+    "level": 1,
+    "tasks_per_person_per_day": 105.0
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Pembuatan Scenario 3D (VBS)",
+    "level": 2,
+    "tasks_per_person_per_day": 55.0
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Making (Character) (Unity)",
+    "level": 1,
+    "tasks_per_person_per_day": 44.0
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Making (Character) (Unity)",
+    "level": 2,
+    "tasks_per_person_per_day": 29.8
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Making (Product Content/Hardsurface) (Unity)",
+    "level": 1,
+    "tasks_per_person_per_day": 44.0
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Making (Environment) (Unity)",
+    "level": 1,
+    "tasks_per_person_per_day": 2.9
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Assembly Material Decal (Environment) (Unity)",
+    "level": 1,
+    "tasks_per_person_per_day": 2.1
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Assembly Modular (Environment) (Unity)",
+    "level": 1,
+    "tasks_per_person_per_day": 1.4
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Making (Lighting and Volumetric Setting) (Unity)",
+    "level": 1,
+    "tasks_per_person_per_day": 7.0
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Making (Lighting and Volumetric Setting) (Unity)",
+    "level": 2,
+    "tasks_per_person_per_day": 1.8
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Action di (Unity)",
+    "level": 1,
+    "tasks_per_person_per_day": 51.0
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Path Making (Unity)",
+    "level": 1,
+    "tasks_per_person_per_day": 42.0
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Path Making (Unity)",
+    "level": 2,
+    "tasks_per_person_per_day": 27.0
+  },
+  {
+    "page": 2,
+    "department": "3D Artist",
+    "task_type_name": "Assembly Scene (Unity)",
+    "level": 1,
+    "tasks_per_person_per_day": 26.2
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Assembly Scene (Unity)",
+    "level": 2,
+    "tasks_per_person_per_day": 13.8
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Rendering Item Satuan 360° (PC 3D)",
+    "level": 1,
+    "tasks_per_person_per_day": 42.0
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Rendering Assembly (PC 3D)",
+    "level": 1,
+    "tasks_per_person_per_day": 56.0
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Rendering Materi (PC 3D)",
+    "level": 1,
+    "tasks_per_person_per_day": 4.3
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Rendering Scene without Particle (PC 3D)",
+    "level": 1,
+    "tasks_per_person_per_day": 2.3
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Rendering Scene with Particle (PC 3D)",
+    "level": 1,
+    "tasks_per_person_per_day": 1.0
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Rendering Item Satuan 360° (Render Farm)",
+    "level": 1,
+    "tasks_per_person_per_day": 60.0
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Rendering Assembly (Render Farm)",
+    "level": 1,
+    "tasks_per_person_per_day": 191.0
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Rendering Materi (Render Farm)",
+    "level": 1,
+    "tasks_per_person_per_day": 8.0
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Rendering Scene without Particle (Render Farm)",
+    "level": 1,
+    "tasks_per_person_per_day": 7.1
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Rendering Scene with Particle (Render Farm)",
+    "level": 1,
+    "tasks_per_person_per_day": 5.7
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Terrain (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 0.5
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Making (Character) (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 44.0
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Making (Character) (Unreal)",
+    "level": 2,
+    "tasks_per_person_per_day": 29.8
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Product Content (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 44.0
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Making (Environment) (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 2.9
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Assembly Material Decal (Environment) (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 2.1
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Assembly Modular (Environment) (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 1.4
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Assembly Product Content (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 26.2
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Assembly Scene Lv1 (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 26.2
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Assembly Scene Lv2 (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 13.8
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Path Making Lv1 (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 42.0
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Path Making Lv2 (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 27.0
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Camera Cinematic (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 16.5
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Setting LOD Building (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 8.0
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Adding Trees (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 0.5
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Adding Lighting and Post-processing (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 7.5
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Karakter di VBS 4",
+    "level": 1,
+    "tasks_per_person_per_day": 1.5
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Product Content di VBS 4",
+    "level": 1,
+    "tasks_per_person_per_day": 3.5
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Product Content di VBS 4",
+    "level": 2,
+    "tasks_per_person_per_day": 2.8
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Product Content di VBS 4",
+    "level": 3,
+    "tasks_per_person_per_day": 1.8
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Product Content di VBS 4",
+    "level": 4,
+    "tasks_per_person_per_day": 1.5
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Bangunan Unik di VBS 4",
+    "level": 1,
+    "tasks_per_person_per_day": 1.5
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Assembly Bangunan di VBS 4",
+    "level": 1,
+    "tasks_per_person_per_day": 1.5
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Assembly Objek Lain di VBS 4",
+    "level": 1,
+    "tasks_per_person_per_day": 1.5
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Mendapatkan Titik Tengah Koordinat Terrain",
+    "level": 1,
+    "tasks_per_person_per_day": 29.0
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Generate Geospatial Data (QGIS)",
+    "level": 1,
+    "tasks_per_person_per_day": 2.0
+  },
+  {
+    "page": 3,
+    "department": "3D Artist",
+    "task_type_name": "Mengambil Data Jalan (QGIS)",
+    "level": 1,
+    "tasks_per_person_per_day": 8.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "Perbaikan Data Jalan Rusak (QGIS)",
+    "level": 1,
+    "tasks_per_person_per_day": 29.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "Mengambil Data Bangunan Common (QGIS)",
+    "level": 1,
+    "tasks_per_person_per_day": 7.5
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "Perbaikan Data Bangunan Common (QGIS)",
+    "level": 1,
+    "tasks_per_person_per_day": 0.2
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "Membuat Data Bangunan Undetected (QGIS)",
+    "level": 1,
+    "tasks_per_person_per_day": 0.1
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "Mengambil Data SUTET (QGIS)",
+    "level": 1,
+    "tasks_per_person_per_day": 29.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "Memberi Titik Bangunan Unik (QGIS)",
+    "level": 1,
+    "tasks_per_person_per_day": 4.5
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "Generate Land Contour Terrain (Terratools)",
+    "level": 1,
+    "tasks_per_person_per_day": 2.5
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "Mengatur Titik Lokasi Bangunan Unik (Terratools)",
+    "level": 1,
+    "tasks_per_person_per_day": 14.5
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "Generate Bangunan Common (Terratools)",
+    "level": 1,
+    "tasks_per_person_per_day": 2.5
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "Menghapus Bangunan Common yang Berada di Titik Bangunan Unik (Terratools)",
+    "level": 1,
+    "tasks_per_person_per_day": 3.5
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "Generating Bangunan Unik (Terratools)",
+    "level": 1,
+    "tasks_per_person_per_day": 7.5
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "Prefabs Action di (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 51.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "Editing and Fixing Building (Blender)",
+    "level": 1,
+    "tasks_per_person_per_day": 1.5
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Model 3D Hardsurface",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Model 3D Character",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Model 3D Environment",
+    "level": 1,
+    "tasks_per_person_per_day": 14.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Texture 3D Hardsurface",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Texture 3D Character",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Texture 3D Environment",
+    "level": 1,
+    "tasks_per_person_per_day": 14.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Rigging 3D Character",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Rigging 3D Mechanical",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Animation 3D Character",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Animation 3D Mechanical",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Assembly 3D Environment",
+    "level": 1,
+    "tasks_per_person_per_day": 14.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Assembly 3D Mechanical",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Product Content Hardsurface (Unity)",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Environment (Unity)",
+    "level": 1,
+    "tasks_per_person_per_day": 14.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Environment Lighting (Unity)",
+    "level": 1,
+    "tasks_per_person_per_day": 14.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Character (Unity)",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Character Animation (Unity)",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Mechanical Animation (Unity)",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Scenario (Unity)",
+    "level": 1,
+    "tasks_per_person_per_day": 5.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Product Content Hardsurface (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Environment (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 14.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Environment Lighting (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 14.0
+  },
+  {
+    "page": 4,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Character (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 5,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Character Animation (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 5,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Mechanical Animation (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 5,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Scenario (Unreal)",
+    "level": 1,
+    "tasks_per_person_per_day": 5.0
+  },
+  {
+    "page": 5,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Product Content Hardsurface (VBS)",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 5,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Environment (VBS)",
+    "level": 1,
+    "tasks_per_person_per_day": 14.0
+  },
+  {
+    "page": 5,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Environment Lighting (VBS)",
+    "level": 1,
+    "tasks_per_person_per_day": 14.0
+  },
+  {
+    "page": 5,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Character (VBS)",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 5,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Character Animation (VBS)",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 5,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Mechanical Animation (VBS)",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 5,
+    "department": "3D Artist",
+    "task_type_name": "QC Prefabs Scenario (VBS)",
+    "level": 1,
+    "tasks_per_person_per_day": 6.0
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Materi Deskriptif atau Naratif Video",
+    "level": 1,
+    "tasks_per_person_per_day": 9.3
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Materi Deskriptif atau Naratif Video",
+    "level": 2,
+    "tasks_per_person_per_day": 7.8
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Materi Deskriptif atau Naratif Video",
+    "level": 3,
+    "tasks_per_person_per_day": 6.0
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Materi Deskriptif atau Naratif Video",
+    "level": 4,
+    "tasks_per_person_per_day": 3.5
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 1,
+    "tasks_per_person_per_day": 9.3
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 2,
+    "tasks_per_person_per_day": 7.8
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 3,
+    "tasks_per_person_per_day": 6.0
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 4,
+    "tasks_per_person_per_day": 3.5
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Visual Brief",
+    "level": 1,
+    "tasks_per_person_per_day": 9.3
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Visual Brief",
+    "level": 2,
+    "tasks_per_person_per_day": 6.0
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Visual Brief",
+    "level": 3,
+    "tasks_per_person_per_day": 3.5
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Visual Brief",
+    "level": 4,
+    "tasks_per_person_per_day": 2.4
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Visual Brief",
+    "level": 5,
+    "tasks_per_person_per_day": 2.0
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Materi Konten Copywriting",
+    "level": 1,
+    "tasks_per_person_per_day": 9.3
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Materi Konten Copywriting",
+    "level": 2,
+    "tasks_per_person_per_day": 8.0
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Materi Konten Copywriting",
+    "level": 3,
+    "tasks_per_person_per_day": 4.5
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Visual Planning Board Video",
+    "level": 1,
+    "tasks_per_person_per_day": 2.9
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Visual Planning Board Video",
+    "level": 2,
+    "tasks_per_person_per_day": 1.9
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Visual Planning Board Video",
+    "level": 3,
+    "tasks_per_person_per_day": 1.3
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Visual Planning Board Gameplay",
+    "level": 1,
+    "tasks_per_person_per_day": 2.9
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Visual Planning Board Gameplay",
+    "level": 2,
+    "tasks_per_person_per_day": 1.9
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Visual Planning Board Gameplay",
+    "level": 3,
+    "tasks_per_person_per_day": 1.3
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Storyboard Video",
+    "level": 1,
+    "tasks_per_person_per_day": 3.0
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Storyboard Video",
+    "level": 2,
+    "tasks_per_person_per_day": 2.1
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Storyboard Video",
+    "level": 3,
+    "tasks_per_person_per_day": 1.6
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Storyboard Video",
+    "level": 4,
+    "tasks_per_person_per_day": 1.1
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 1,
+    "tasks_per_person_per_day": 3.0
+  },
+  {
+    "page": 5,
+    "department": "Concept Artist",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 2,
+    "tasks_per_person_per_day": 2.1
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 3,
+    "tasks_per_person_per_day": 1.6
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 4,
+    "tasks_per_person_per_day": 1.3
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 5,
+    "tasks_per_person_per_day": 1.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Concept Art Video",
+    "level": 1,
+    "tasks_per_person_per_day": 2.2
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Concept Art Video",
+    "level": 2,
+    "tasks_per_person_per_day": 0.8
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Concept Art Video",
+    "level": 3,
+    "tasks_per_person_per_day": 0.2
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Concept Art Gameplay",
+    "level": 1,
+    "tasks_per_person_per_day": 2.2
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Concept Art Gameplay",
+    "level": 2,
+    "tasks_per_person_per_day": 0.8
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Concept Art Gameplay",
+    "level": 3,
+    "tasks_per_person_per_day": 0.2
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Konten Pendukung Video",
+    "level": 1,
+    "tasks_per_person_per_day": 14.3
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Konten Pendukung Video",
+    "level": 2,
+    "tasks_per_person_per_day": 12.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Konten Pendukung Video",
+    "level": 3,
+    "tasks_per_person_per_day": 9.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Konten Pendukung Gameplay",
+    "level": 1,
+    "tasks_per_person_per_day": 14.3
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Konten Pendukung Gameplay",
+    "level": 2,
+    "tasks_per_person_per_day": 12.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Konten Pendukung Gameplay",
+    "level": 3,
+    "tasks_per_person_per_day": 9.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Pencarian, Pengumpulan, dan Analisis Data (CF) - Video",
+    "level": 1,
+    "tasks_per_person_per_day": 14.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Pencarian, Pengumpulan, dan Analisis Data (Procedural) - Video",
+    "level": 1,
+    "tasks_per_person_per_day": 23.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Pencarian, Pengumpulan, dan Analisis Data (General) - Video",
+    "level": 1,
+    "tasks_per_person_per_day": 25.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Pencarian, Pengumpulan, dan Analisis Data (CF) - Gameplay",
+    "level": 1,
+    "tasks_per_person_per_day": 14.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Pencarian, Pengumpulan, dan Analisis Data (Procedural) - Gameplay",
+    "level": 1,
+    "tasks_per_person_per_day": 23.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "Pencarian, Pengumpulan, dan Analisis Data (General) - Gameplay",
+    "level": 1,
+    "tasks_per_person_per_day": 25.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "QC Materi Deskriptif atau Naratif Video",
+    "level": 1,
+    "tasks_per_person_per_day": 19.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "QC Materi Deskriptif atau Naratif Gameplay",
+    "level": 1,
+    "tasks_per_person_per_day": 19.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "QC Visual Brief",
+    "level": 1,
+    "tasks_per_person_per_day": 10.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "QC Materi Konten Copywriting",
+    "level": 1,
+    "tasks_per_person_per_day": 15.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "QC Visual Planning Board - Video",
+    "level": 1,
+    "tasks_per_person_per_day": 10.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "QC Visual Planning Board - Gameplay",
+    "level": 1,
+    "tasks_per_person_per_day": 10.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "QC Storyboard Video",
+    "level": 1,
+    "tasks_per_person_per_day": 10.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "QC Storyboard Gameplay",
+    "level": 1,
+    "tasks_per_person_per_day": 10.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "QC Concept Art - Video",
+    "level": 1,
+    "tasks_per_person_per_day": 10.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "QC Concept Art - Gameplay",
+    "level": 1,
+    "tasks_per_person_per_day": 10.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "QC Konten Pendukung - Video",
+    "level": 1,
+    "tasks_per_person_per_day": 10.0
+  },
+  {
+    "page": 6,
+    "department": "Concept Artist",
+    "task_type_name": "QC Konten Pendukung - Gameplay",
+    "level": 1,
+    "tasks_per_person_per_day": 10.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "UI Design",
+    "level": 1,
+    "tasks_per_person_per_day": 4.5
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "UI Design",
+    "level": 2,
+    "tasks_per_person_per_day": 3.8
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "UI Design",
+    "level": 3,
+    "tasks_per_person_per_day": 2.6
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "UI Figma Configuration",
+    "level": 1,
+    "tasks_per_person_per_day": 1.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "UI Figma Configuration",
+    "level": 2,
+    "tasks_per_person_per_day": 0.75
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "UI Figma Configuration",
+    "level": 3,
+    "tasks_per_person_per_day": 0.625
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Aset 2D",
+    "level": 1,
+    "tasks_per_person_per_day": 15.6
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Aset 2D",
+    "level": 2,
+    "tasks_per_person_per_day": 8.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Aset 2D",
+    "level": 3,
+    "tasks_per_person_per_day": 2.5
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Media Sosial",
+    "level": 1,
+    "tasks_per_person_per_day": 3.5
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Media Sosial",
+    "level": 2,
+    "tasks_per_person_per_day": 2.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Media Sosial",
+    "level": 3,
+    "tasks_per_person_per_day": 1.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Power Point",
+    "level": 1,
+    "tasks_per_person_per_day": 10.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Power Point",
+    "level": 2,
+    "tasks_per_person_per_day": 7.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Power Point",
+    "level": 3,
+    "tasks_per_person_per_day": 5.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Stamp 3D",
+    "level": 1,
+    "tasks_per_person_per_day": 10.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Stamp 3D",
+    "level": 2,
+    "tasks_per_person_per_day": 6.5
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Stamp 3D",
+    "level": 3,
+    "tasks_per_person_per_day": 4.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Logo",
+    "level": 1,
+    "tasks_per_person_per_day": 2.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Logo",
+    "level": 2,
+    "tasks_per_person_per_day": 1.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Logo",
+    "level": 3,
+    "tasks_per_person_per_day": 1.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Foto",
+    "level": 1,
+    "tasks_per_person_per_day": 7.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Foto",
+    "level": 2,
+    "tasks_per_person_per_day": 2.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Foto",
+    "level": 3,
+    "tasks_per_person_per_day": 1.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Advertisement",
+    "level": 1,
+    "tasks_per_person_per_day": 4.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Advertisement",
+    "level": 2,
+    "tasks_per_person_per_day": 2.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Advertisement",
+    "level": 3,
+    "tasks_per_person_per_day": 1.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Sertifikat",
+    "level": 1,
+    "tasks_per_person_per_day": 4.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Sertifikat",
+    "level": 2,
+    "tasks_per_person_per_day": 3.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Sertifikat",
+    "level": 3,
+    "tasks_per_person_per_day": 2.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Tanda Pengenal",
+    "level": 1,
+    "tasks_per_person_per_day": 4.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Tanda Pengenal",
+    "level": 2,
+    "tasks_per_person_per_day": 3.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Tanda Pengenal",
+    "level": 3,
+    "tasks_per_person_per_day": 2.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Merchandise",
+    "level": 1,
+    "tasks_per_person_per_day": 4.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Merchandise",
+    "level": 2,
+    "tasks_per_person_per_day": 2.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Merchandise",
+    "level": 3,
+    "tasks_per_person_per_day": 1.0
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Banner",
+    "level": 1,
+    "tasks_per_person_per_day": 2.5
+  },
+  {
+    "page": 7,
+    "department": "2D Artist",
+    "task_type_name": "Banner",
+    "level": 2,
+    "tasks_per_person_per_day": 2.0
+  },
+  {
+    "page": 8,
+    "department": "2D Artist",
+    "task_type_name": "Banner",
+    "level": 3,
+    "tasks_per_person_per_day": 1.0
+  },
+  {
+    "page": 8,
+    "department": "2D Artist",
+    "task_type_name": "Buku",
+    "level": 1,
+    "tasks_per_person_per_day": 4.0
+  },
+  {
+    "page": 8,
+    "department": "2D Artist",
+    "task_type_name": "Buku",
+    "level": 2,
+    "tasks_per_person_per_day": 3.0
+  },
+  {
+    "page": 8,
+    "department": "2D Artist",
+    "task_type_name": "Buku",
+    "level": 3,
+    "tasks_per_person_per_day": 2.0
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Content",
+    "level": 1,
+    "tasks_per_person_per_day": 4.5
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Content",
+    "level": 2,
+    "tasks_per_person_per_day": 2.12
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Content",
+    "level": 3,
+    "tasks_per_person_per_day": 0.75
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Content",
+    "level": 4,
+    "tasks_per_person_per_day": 0.55
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Content",
+    "level": 5,
+    "tasks_per_person_per_day": 0.25
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Content",
+    "level": 6,
+    "tasks_per_person_per_day": 0.2
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Prosedural",
+    "level": 1,
+    "tasks_per_person_per_day": 2.75
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Prosedural",
+    "level": 2,
+    "tasks_per_person_per_day": 2.12
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Prosedural",
+    "level": 3,
+    "tasks_per_person_per_day": 0.75
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Prosedural",
+    "level": 4,
+    "tasks_per_person_per_day": 0.55
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Prosedural",
+    "level": 5,
+    "tasks_per_person_per_day": 0.25
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Prosedural",
+    "level": 6,
+    "tasks_per_person_per_day": 0.2
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Hanjar",
+    "level": 1,
+    "tasks_per_person_per_day": 1.75
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Hanjar",
+    "level": 2,
+    "tasks_per_person_per_day": 1.25
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Hanjar",
+    "level": 3,
+    "tasks_per_person_per_day": 0.5
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Hanjar",
+    "level": 4,
+    "tasks_per_person_per_day": 0.3
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Hanjar",
+    "level": 5,
+    "tasks_per_person_per_day": 0.25
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Video Hanjar",
+    "level": 6,
+    "tasks_per_person_per_day": 0.2
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Screening Video",
+    "level": 1,
+    "tasks_per_person_per_day": 28.0
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Shooting Production ( General )",
+    "level": 1,
+    "tasks_per_person_per_day": 1.0
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Shooting Production ( Technical )",
+    "level": 1,
+    "tasks_per_person_per_day": 1.0
+  },
+  {
+    "page": 8,
+    "department": "Video Artist",
+    "task_type_name": "Shooting Social Media ( Technical )",
+    "level": 1,
+    "tasks_per_person_per_day": 1.0
+  }
+]

@@ -1,0 +1,2954 @@
+[
+  {
+    "product": "Driving Simulator",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv2",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 2,
+    "ratio": 0.2,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv3",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 3,
+    "ratio": 0.7,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv4",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 4,
+    "ratio": 0.1,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Visual Brief Lv2",
+    "task_type_name": "Visual Brief",
+    "level": 2,
+    "ratio": 0.4,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Visual Brief Lv3",
+    "task_type_name": "Visual Brief",
+    "level": 3,
+    "ratio": 0.6,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Storyboard Gameplay Lv2",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 2,
+    "ratio": 0.4,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Storyboard Gameplay Lv3",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 3,
+    "ratio": 0.6,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Konten Pendukung Gameplay Lv1",
+    "task_type_name": "Konten Pendukung Gameplay",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Video Prosedural Lv1",
+    "task_type_name": "Video Prosedural",
+    "level": 1,
+    "ratio": 0.1,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Video Prosedural Lv2",
+    "task_type_name": "Video Prosedural",
+    "level": 2,
+    "ratio": 0.1,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Video Prosedural Lv3",
+    "task_type_name": "Video Prosedural",
+    "level": 3,
+    "ratio": 0.4,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Video Prosedural Lv4",
+    "task_type_name": "Video Prosedural",
+    "level": 4,
+    "ratio": 0.4,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Modelling Product Content Lv1",
+    "task_type_name": "Modelling Product Content",
+    "level": 1,
+    "ratio": 0.1,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Modelling Product Content Lv2",
+    "task_type_name": "Modelling Product Content",
+    "level": 2,
+    "ratio": 0.1,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Modelling Product Content Lv3",
+    "task_type_name": "Modelling Product Content",
+    "level": 3,
+    "ratio": 0.2,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Modelling Product Content Lv4",
+    "task_type_name": "Modelling Product Content",
+    "level": 4,
+    "ratio": 0.2,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Modelling Product Content Lv5",
+    "task_type_name": "Modelling Product Content",
+    "level": 5,
+    "ratio": 0.4,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Texturing Product Content Lv1",
+    "task_type_name": "Texturing Product Content",
+    "level": 1,
+    "ratio": 0.1,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Texturing Product Content Lv2",
+    "task_type_name": "Texturing Product Content",
+    "level": 2,
+    "ratio": 0.3,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Texturing Product Content Lv3",
+    "task_type_name": "Texturing Product Content",
+    "level": 3,
+    "ratio": 0.5,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Texturing Product Content Lv4",
+    "task_type_name": "Texturing Product Content",
+    "level": 4,
+    "ratio": 0.1,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Mechanical Rigging Lv1",
+    "task_type_name": "Mechanical Rigging",
+    "level": 1,
+    "ratio": 0.4,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Mechanical Rigging Lv2",
+    "task_type_name": "Mechanical Rigging",
+    "level": 2,
+    "ratio": 0.6,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Prefabs Making (Product Content/Hardsurface) (Unity) Lv1",
+    "task_type_name": "Prefabs Making (Product Content/Hardsurface) (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Modelling Environment Lv1",
+    "task_type_name": "Modelling Environment",
+    "level": 1,
+    "ratio": 0.25,
+    "deliverable": "3D Environment",
+    "page": 1
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Modelling Environment Lv2",
+    "task_type_name": "Modelling Environment",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Modelling Environment Lv3",
+    "task_type_name": "Modelling Environment",
+    "level": 3,
+    "ratio": 0.25,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Texturing Environment Exterior Lv1",
+    "task_type_name": "Texturing Environment Exterior",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Texturing Environment Exterior Lv2",
+    "task_type_name": "Texturing Environment Exterior",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Environment 3D Assembly Lv1",
+    "task_type_name": "Environment 3D Assembly",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Prefabs Making (Environment) (Unity) Lv1",
+    "task_type_name": "Prefabs Making (Environment) (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Assembly Material Decal (Environment) (Unity) Lv1",
+    "task_type_name": "Assembly Material Decal (Environment) (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Assembly Modular (Environment) (Unity) Lv1",
+    "task_type_name": "Assembly Modular (Environment) (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Prefabs Making (Lighting and Volumetric Setting) (Unity) Lv1",
+    "task_type_name": "Prefabs Making (Lighting and Volumetric Setting) (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Prefabs Making (Lighting and Volumetric Setting) (Unity) Lv2",
+    "task_type_name": "Prefabs Making (Lighting and Volumetric Setting) (Unity)",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Pembuatan Scenario 3D (Unity) Lv1",
+    "task_type_name": "Pembuatan Scenario 3D (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Assembly Scene (Unity) Lv1",
+    "task_type_name": "Assembly Scene (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Mechanical 3D Scenario Assembly Lv1",
+    "task_type_name": "Mechanical 3D Scenario Assembly",
+    "level": 1,
+    "ratio": 0.2,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Mechanical 3D Scenario Assembly Lv2",
+    "task_type_name": "Mechanical 3D Scenario Assembly",
+    "level": 2,
+    "ratio": 0.3,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Mechanical 3D Scenario Assembly Lv3",
+    "task_type_name": "Mechanical 3D Scenario Assembly",
+    "level": 3,
+    "ratio": 0.5,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Mechanical Animation Lv1",
+    "task_type_name": "Mechanical Animation",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Animasi",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Mechanical Animation Lv2",
+    "task_type_name": "Mechanical Animation",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Animasi",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "360 Item Animation Lv1",
+    "task_type_name": "360 Item Animation",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Animasi",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Prefabs Action di (Unity) Lv1",
+    "task_type_name": "Prefabs Action di (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Animasi",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Render Preparation Mix Lv1",
+    "task_type_name": "Render Preparation Mix",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Render",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Render Preparation Image Lv1",
+    "task_type_name": "Render Preparation Image",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Render",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Render Preparation Anim 360 Lv1",
+    "task_type_name": "Render Preparation Anim 360",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Render",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Stamp 3D Lv1",
+    "task_type_name": "Stamp 3D",
+    "level": 1,
+    "ratio": 0.0989,
+    "deliverable": "2D - Task Lainnya",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Stamp 3D Lv2",
+    "task_type_name": "Stamp 3D",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "2D - Task Lainnya",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Stamp 3D Lv3",
+    "task_type_name": "Stamp 3D",
+    "level": 3,
+    "ratio": 0.4,
+    "deliverable": "2D - Task Lainnya",
+    "page": 2
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Logo Lv2",
+    "task_type_name": "Logo",
+    "level": 2,
+    "ratio": 0.0011,
+    "deliverable": "2D - Task Lainnya",
+    "page": 3
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "Video Content Lv3",
+    "task_type_name": "Video Content",
+    "level": 3,
+    "ratio": 1.0,
+    "deliverable": "VA - Template/Bumper",
+    "page": 3
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "UI Design Lv1",
+    "task_type_name": "UI Design",
+    "level": 1,
+    "ratio": 0.1,
+    "deliverable": "UI",
+    "page": 3
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "UI Design Lv2",
+    "task_type_name": "UI Design",
+    "level": 2,
+    "ratio": 0.4,
+    "deliverable": "UI",
+    "page": 3
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "UI Design Lv3",
+    "task_type_name": "UI Design",
+    "level": 3,
+    "ratio": 0.5,
+    "deliverable": "UI",
+    "page": 3
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "UI Figma Configuration Lv1",
+    "task_type_name": "UI Figma Configuration",
+    "level": 1,
+    "ratio": 0.1,
+    "deliverable": "UI",
+    "page": 3
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "UI Figma Configuration Lv2",
+    "task_type_name": "UI Figma Configuration",
+    "level": 2,
+    "ratio": 0.4,
+    "deliverable": "UI",
+    "page": 3
+  },
+  {
+    "product": "Driving Simulator",
+    "task_row": "UI Figma Configuration Lv3",
+    "task_type_name": "UI Figma Configuration",
+    "level": 3,
+    "ratio": 0.5,
+    "deliverable": "UI",
+    "page": 3
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv1",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 1,
+    "ratio": 0.04,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv2",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 2,
+    "ratio": 0.8,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv3",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 3,
+    "ratio": 0.15,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv4",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 4,
+    "ratio": 0.01,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Visual Brief Lv1",
+    "task_type_name": "Visual Brief",
+    "level": 1,
+    "ratio": 0.1,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Visual Brief Lv2",
+    "task_type_name": "Visual Brief",
+    "level": 2,
+    "ratio": 0.8,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Visual Brief Lv3",
+    "task_type_name": "Visual Brief",
+    "level": 3,
+    "ratio": 0.1,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Storyboard Gameplay Lv1",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 1,
+    "ratio": 0.2,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Storyboard Gameplay Lv2",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 2,
+    "ratio": 0.7,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Storyboard Gameplay Lv3",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 3,
+    "ratio": 0.1,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Video Prosedural Lv1",
+    "task_type_name": "Video Prosedural",
+    "level": 1,
+    "ratio": 0.04,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Video Prosedural Lv2",
+    "task_type_name": "Video Prosedural",
+    "level": 2,
+    "ratio": 0.8,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Video Prosedural Lv3",
+    "task_type_name": "Video Prosedural",
+    "level": 3,
+    "ratio": 0.15,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Video Prosedural Lv4",
+    "task_type_name": "Video Prosedural",
+    "level": 4,
+    "ratio": 0.01,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Konten Pendukung Gameplay Lv1",
+    "task_type_name": "Konten Pendukung Gameplay",
+    "level": 1,
+    "ratio": 2.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Materi Deskriptif atau Naratif Video Lv1",
+    "task_type_name": "Materi Deskriptif atau Naratif Video",
+    "level": 1,
+    "ratio": 0.04,
+    "deliverable": "Skenario Video",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Materi Deskriptif atau Naratif Video Lv2",
+    "task_type_name": "Materi Deskriptif atau Naratif Video",
+    "level": 2,
+    "ratio": 0.8,
+    "deliverable": "Skenario Video",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Materi Deskriptif atau Naratif Video Lv3",
+    "task_type_name": "Materi Deskriptif atau Naratif Video",
+    "level": 3,
+    "ratio": 0.15,
+    "deliverable": "Skenario Video",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Materi Deskriptif atau Naratif Video Lv4",
+    "task_type_name": "Materi Deskriptif atau Naratif Video",
+    "level": 4,
+    "ratio": 0.01,
+    "deliverable": "Skenario Video",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Storyboard Video Lv1",
+    "task_type_name": "Storyboard Video",
+    "level": 1,
+    "ratio": 0.2,
+    "deliverable": "Skenario Video",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Storyboard Video Lv2",
+    "task_type_name": "Storyboard Video",
+    "level": 2,
+    "ratio": 0.6,
+    "deliverable": "Skenario Video",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Storyboard Video Lv3",
+    "task_type_name": "Storyboard Video",
+    "level": 3,
+    "ratio": 0.1,
+    "deliverable": "Skenario Video",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Storyboard Video Lv4",
+    "task_type_name": "Storyboard Video",
+    "level": 4,
+    "ratio": 0.1,
+    "deliverable": "Skenario Video",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Konten Pendukung Video Lv1",
+    "task_type_name": "Konten Pendukung Video",
+    "level": 1,
+    "ratio": 2.0,
+    "deliverable": "Skenario Video",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Video Hanjar Lv1",
+    "task_type_name": "Video Hanjar",
+    "level": 1,
+    "ratio": 0.04,
+    "deliverable": "Skenario Video",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Video Hanjar Lv2",
+    "task_type_name": "Video Hanjar",
+    "level": 2,
+    "ratio": 0.8,
+    "deliverable": "Skenario Video",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Video Hanjar Lv3",
+    "task_type_name": "Video Hanjar",
+    "level": 3,
+    "ratio": 0.15,
+    "deliverable": "Skenario Video",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Video Hanjar Lv4",
+    "task_type_name": "Video Hanjar",
+    "level": 4,
+    "ratio": 0.01,
+    "deliverable": "Skenario Video",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Modelling Product Content Lv1",
+    "task_type_name": "Modelling Product Content",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Modelling Product Content Lv2",
+    "task_type_name": "Modelling Product Content",
+    "level": 2,
+    "ratio": 0.3,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Modelling Product Content Lv3",
+    "task_type_name": "Modelling Product Content",
+    "level": 3,
+    "ratio": 0.15,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Modelling Product Content Lv4",
+    "task_type_name": "Modelling Product Content",
+    "level": 4,
+    "ratio": 0.05,
+    "deliverable": "3D Product Content/Envi",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Texturing Product Content Lv1",
+    "task_type_name": "Texturing Product Content",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Product Content/Envi",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Texturing Product Content Lv2",
+    "task_type_name": "Texturing Product Content",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Product Content/Envi",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Prefabs Making (Product Content/Hardsurface) (Unity) Lv1",
+    "task_type_name": "Prefabs Making (Product Content/Hardsurface) (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Product Content/Envi",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Environment 3D Assembly Lv1",
+    "task_type_name": "Environment 3D Assembly",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Assembly Material Decal (Environment) (Unity) Lv1",
+    "task_type_name": "Assembly Material Decal (Environment) (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Assembly Modular (Environment) (Unity) Lv1",
+    "task_type_name": "Assembly Modular (Environment) (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Prefabs Making (Lighting and Volumetric Setting) (Unity) Lv1",
+    "task_type_name": "Prefabs Making (Lighting and Volumetric Setting) (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Pembuatan Scenario 3D (Unity) Lv1",
+    "task_type_name": "Pembuatan Scenario 3D (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Assembly Scene (Unity) Lv1",
+    "task_type_name": "Assembly Scene (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Mechanical 3D Scenario Assembly Lv1",
+    "task_type_name": "Mechanical 3D Scenario Assembly",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Skenario",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Mechanical 3D Scenario Assembly Lv2",
+    "task_type_name": "Mechanical 3D Scenario Assembly",
+    "level": 2,
+    "ratio": 1.0,
+    "deliverable": "3D Skenario",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Mechanical 3D Scenario Assembly Lv3",
+    "task_type_name": "Mechanical 3D Scenario Assembly",
+    "level": 3,
+    "ratio": 1.0,
+    "deliverable": "3D Skenario",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Mechanical Animation Lv1",
+    "task_type_name": "Mechanical Animation",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Animasi",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Mechanical Animation Lv2",
+    "task_type_name": "Mechanical Animation",
+    "level": 2,
+    "ratio": 1.0,
+    "deliverable": "3D Animasi",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "360 Item Animation Lv1",
+    "task_type_name": "360 Item Animation",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Animasi",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Prefabs Action di (Unity) Lv1",
+    "task_type_name": "Prefabs Action di (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Animasi",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Render Preparation Mix Lv1",
+    "task_type_name": "Render Preparation Mix",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Render",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Render Preparation Image Lv1",
+    "task_type_name": "Render Preparation Image",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Render",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Render Preparation Anim 360 Lv1",
+    "task_type_name": "Render Preparation Anim 360",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Render",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Stamp 3D Lv1",
+    "task_type_name": "Stamp 3D",
+    "level": 1,
+    "ratio": 0.4,
+    "deliverable": "2D - Task Lainnya",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Stamp 3D Lv2",
+    "task_type_name": "Stamp 3D",
+    "level": 2,
+    "ratio": 0.4,
+    "deliverable": "2D - Task Lainnya",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Stamp 3D Lv3",
+    "task_type_name": "Stamp 3D",
+    "level": 3,
+    "ratio": 0.2,
+    "deliverable": "2D - Task Lainnya",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Logo Lv2",
+    "task_type_name": "Logo",
+    "level": 2,
+    "ratio": 0.001841620626,
+    "deliverable": "2D - Task Lainnya",
+    "page": 2
+  },
+  {
+    "product": "VTS Maintenance and Operational",
+    "task_row": "Video Content Lv3",
+    "task_type_name": "Video Content",
+    "level": 3,
+    "ratio": 2.0,
+    "deliverable": "VA - Template/Bumper",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Pencarian, Pengumpulan, dan Analisis Data (CF) - Gameplay Lv1",
+    "task_type_name": "Pencarian, Pengumpulan, dan Analisis Data (CF) - Gameplay",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv1",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv2",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 2,
+    "ratio": 0.3,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv3",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 3,
+    "ratio": 0.1,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv4",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 4,
+    "ratio": 0.1,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Materi Deskriptif atau Naratif Gameplay Lv1",
+    "task_type_name": "QC Materi Deskriptif atau Naratif Gameplay",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Visual Brief Lv1",
+    "task_type_name": "Visual Brief",
+    "level": 1,
+    "ratio": 0.4,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Visual Brief Lv2",
+    "task_type_name": "Visual Brief",
+    "level": 2,
+    "ratio": 0.4,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Visual Brief Lv3",
+    "task_type_name": "Visual Brief",
+    "level": 3,
+    "ratio": 0.2,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Visual Brief Lv1",
+    "task_type_name": "QC Visual Brief",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Storyboard Gameplay Lv1",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Storyboard Gameplay Lv2",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 2,
+    "ratio": 0.4,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Storyboard Gameplay Lv3",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 3,
+    "ratio": 0.1,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Storyboard Gameplay Lv1",
+    "task_type_name": "QC Storyboard Gameplay",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Konten Pendukung Gameplay Lv1",
+    "task_type_name": "Konten Pendukung Gameplay",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Konten Pendukung - Gameplay Lv1",
+    "task_type_name": "QC Konten Pendukung - Gameplay",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Modelling Product Content Lv1",
+    "task_type_name": "Modelling Product Content",
+    "level": 1,
+    "ratio": 0.6,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Modelling Product Content Lv2",
+    "task_type_name": "Modelling Product Content",
+    "level": 2,
+    "ratio": 0.4,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Model 3D Hardsurface Lv1",
+    "task_type_name": "QC Model 3D Hardsurface",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Texturing Product Content Lv1",
+    "task_type_name": "Texturing Product Content",
+    "level": 1,
+    "ratio": 0.7,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Texturing Product Content Lv2",
+    "task_type_name": "Texturing Product Content",
+    "level": 2,
+    "ratio": 0.3,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Texture 3D Hardsurface Lv1",
+    "task_type_name": "QC Texture 3D Hardsurface",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Prefabs Making (Product Content/Hardsurface) (Unity) Lv1",
+    "task_type_name": "Prefabs Making (Product Content/Hardsurface) (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Prefabs Product Content Hardsurface (Unity) Lv1",
+    "task_type_name": "QC Prefabs Product Content Hardsurface (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Modelling Environment Lv1",
+    "task_type_name": "Modelling Environment",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 1
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Model 3D Environment Lv1",
+    "task_type_name": "QC Model 3D Environment",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Texturing Environment Interior Lv1",
+    "task_type_name": "Texturing Environment Interior",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Texturing Environment Exterior Lv1",
+    "task_type_name": "Texturing Environment Exterior",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Texture 3D Environment Lv1",
+    "task_type_name": "QC Texture 3D Environment",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Environment 3D Assembly Lv1",
+    "task_type_name": "Environment 3D Assembly",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Prefabs Making (Environment) (Unity) Lv1",
+    "task_type_name": "Prefabs Making (Environment) (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Assembly Material Decal (Environment) (Unity) Lv1",
+    "task_type_name": "Assembly Material Decal (Environment) (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Assembly Modular (Environment) (Unity) Lv1",
+    "task_type_name": "Assembly Modular (Environment) (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Assembly 3D Environment Lv1",
+    "task_type_name": "QC Assembly 3D Environment",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Prefabs Environment (Unity) Lv1",
+    "task_type_name": "QC Prefabs Environment (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Prefabs Making (Lighting and Volumetric Setting) (Unity) Lv1",
+    "task_type_name": "Prefabs Making (Lighting and Volumetric Setting) (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Prefabs Environment Lighting (Unity) Lv1",
+    "task_type_name": "QC Prefabs Environment Lighting (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Pembuatan Scenario 3D (Unity) Lv1",
+    "task_type_name": "Pembuatan Scenario 3D (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Pembuatan Scenario 3D (Unity) Lv2",
+    "task_type_name": "Pembuatan Scenario 3D (Unity)",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Path Making (Unity) Lv1",
+    "task_type_name": "Path Making (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Path Making (Unity) Lv2",
+    "task_type_name": "Path Making (Unity)",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Assembly Scene (Unity) Lv1",
+    "task_type_name": "Assembly Scene (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Assembly Scene (Unity) Lv2",
+    "task_type_name": "Assembly Scene (Unity)",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Prefabs Scenario (Unity) Lv1",
+    "task_type_name": "QC Prefabs Scenario (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Mechanical 3D Scenario Assembly Lv1",
+    "task_type_name": "Mechanical 3D Scenario Assembly",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Skenario",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Mechanical 3D Scenario Assembly Lv2",
+    "task_type_name": "Mechanical 3D Scenario Assembly",
+    "level": 2,
+    "ratio": 0.3,
+    "deliverable": "3D Skenario",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Mechanical 3D Scenario Assembly Lv3",
+    "task_type_name": "Mechanical 3D Scenario Assembly",
+    "level": 3,
+    "ratio": 0.2,
+    "deliverable": "3D Skenario",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Assembly 3D Mechanical Lv1",
+    "task_type_name": "QC Assembly 3D Mechanical",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Skenario",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Modelling Character on CC Lv1",
+    "task_type_name": "Modelling Character on CC",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Character",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Modelling Character on CC Lv2",
+    "task_type_name": "Modelling Character on CC",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Character",
+    "page": 2
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Model 3D Character Lv1",
+    "task_type_name": "QC Model 3D Character",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Texturing Character's Skin and Hair Lv1",
+    "task_type_name": "Texturing Character's Skin and Hair",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Texturing Clothe''s Skin Lv1",
+    "task_type_name": "Texturing Clothe''s Skin",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Character 3D Cloth Assembly Lv1",
+    "task_type_name": "Character 3D Cloth Assembly",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Texture 3D Character Lv1",
+    "task_type_name": "QC Texture 3D Character",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Character Rigging Lv1",
+    "task_type_name": "Character Rigging",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Character Rigging Lv2",
+    "task_type_name": "Character Rigging",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Character Cut and Weightpaint Lv1",
+    "task_type_name": "Character Cut and Weightpaint",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Rigging 3D Character Lv1",
+    "task_type_name": "QC Rigging 3D Character",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Prefabs Making (Character) (Unity) Lv1",
+    "task_type_name": "Prefabs Making (Character) (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Prefabs Making (Character) (Unity) Lv2",
+    "task_type_name": "Prefabs Making (Character) (Unity)",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Prefabs Character (Unity) Lv1",
+    "task_type_name": "QC Prefabs Character (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Character Animation Lv1",
+    "task_type_name": "Character Animation",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Character Animation Lv2",
+    "task_type_name": "Character Animation",
+    "level": 2,
+    "ratio": 0.3,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Character Animation Lv3",
+    "task_type_name": "Character Animation",
+    "level": 3,
+    "ratio": 0.2,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Mechanical Animation Lv1",
+    "task_type_name": "Mechanical Animation",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "VFX Animation Lv1",
+    "task_type_name": "VFX Animation",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Animation 3D Character Lv1",
+    "task_type_name": "QC Animation 3D Character",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "QC Prefabs Character Animation (Unity) Lv1",
+    "task_type_name": "QC Prefabs Character Animation (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Prefabs Action di (Unity) Lv1",
+    "task_type_name": "Prefabs Action di (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Logo Lv1",
+    "task_type_name": "Logo",
+    "level": 1,
+    "ratio": 0.00333,
+    "deliverable": "2D - Task Lainnya",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Stamp 3D Lv1",
+    "task_type_name": "Stamp 3D",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "2D - Task Lainnya",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Stamp 3D Lv2",
+    "task_type_name": "Stamp 3D",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "2D - Task Lainnya",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "Video Content Lv3",
+    "task_type_name": "Video Content",
+    "level": 3,
+    "ratio": 1.0,
+    "deliverable": "VA - Template/Bumper",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "UI Design Lv1",
+    "task_type_name": "UI Design",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "UI",
+    "page": 3
+  },
+  {
+    "product": "AR General Scenario",
+    "task_row": "UI Figma Configuration Lv1",
+    "task_type_name": "UI Figma Configuration",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "UI",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Pencarian, Pengumpulan, dan Analisis Data (CF) - Gameplay Lv1",
+    "task_type_name": "Pencarian, Pengumpulan, dan Analisis Data (CF) - Gameplay",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv1",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv2",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 2,
+    "ratio": 0.3,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv3",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 3,
+    "ratio": 0.1,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv4",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 4,
+    "ratio": 0.1,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Materi Deskriptif atau Naratif Gameplay Lv1",
+    "task_type_name": "QC Materi Deskriptif atau Naratif Gameplay",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Visual Brief Lv1",
+    "task_type_name": "Visual Brief",
+    "level": 1,
+    "ratio": 0.4,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Visual Brief Lv2",
+    "task_type_name": "Visual Brief",
+    "level": 2,
+    "ratio": 0.4,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Visual Brief Lv3",
+    "task_type_name": "Visual Brief",
+    "level": 3,
+    "ratio": 0.2,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Visual Brief Lv1",
+    "task_type_name": "QC Visual Brief",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Storyboard Gameplay Lv1",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Storyboard Gameplay Lv2",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 2,
+    "ratio": 0.4,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Storyboard Gameplay Lv3",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 3,
+    "ratio": 0.1,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Storyboard Gameplay Lv1",
+    "task_type_name": "QC Storyboard Gameplay",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Konten Pendukung Gameplay Lv1",
+    "task_type_name": "Konten Pendukung Gameplay",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Konten Pendukung - Gameplay Lv1",
+    "task_type_name": "QC Konten Pendukung - Gameplay",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Modelling Product Content Lv1",
+    "task_type_name": "Modelling Product Content",
+    "level": 1,
+    "ratio": 0.6,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Modelling Product Content Lv2",
+    "task_type_name": "Modelling Product Content",
+    "level": 2,
+    "ratio": 0.4,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Model 3D Hardsurface Lv1",
+    "task_type_name": "QC Model 3D Hardsurface",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Texturing Product Content Lv1",
+    "task_type_name": "Texturing Product Content",
+    "level": 1,
+    "ratio": 0.7,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Texturing Product Content Lv2",
+    "task_type_name": "Texturing Product Content",
+    "level": 2,
+    "ratio": 0.3,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Texture 3D Hardsurface Lv1",
+    "task_type_name": "QC Texture 3D Hardsurface",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Prefabs Making (Product Content/Hardsurface) (Unity) Lv1",
+    "task_type_name": "Prefabs Making (Product Content/Hardsurface) (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Prefabs Product Content Hardsurface (Unity) Lv1",
+    "task_type_name": "QC Prefabs Product Content Hardsurface (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Modelling Environment Lv1",
+    "task_type_name": "Modelling Environment",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 1
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Model 3D Environment Lv1",
+    "task_type_name": "QC Model 3D Environment",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Texturing Environment Interior Lv1",
+    "task_type_name": "Texturing Environment Interior",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Texturing Environment Exterior Lv1",
+    "task_type_name": "Texturing Environment Exterior",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Texture 3D Environment Lv1",
+    "task_type_name": "QC Texture 3D Environment",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Environment 3D Assembly Lv1",
+    "task_type_name": "Environment 3D Assembly",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Prefabs Making (Environment) (Unity) Lv1",
+    "task_type_name": "Prefabs Making (Environment) (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Assembly Material Decal (Environment) (Unity) Lv1",
+    "task_type_name": "Assembly Material Decal (Environment) (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Assembly Modular (Environment) (Unity) Lv1",
+    "task_type_name": "Assembly Modular (Environment) (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Assembly 3D Environment Lv1",
+    "task_type_name": "QC Assembly 3D Environment",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Prefabs Environment (Unity) Lv1",
+    "task_type_name": "QC Prefabs Environment (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Prefabs Making (Lighting and Volumetric Setting) (Unity) Lv1",
+    "task_type_name": "Prefabs Making (Lighting and Volumetric Setting) (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Prefabs Environment Lighting (Unity) Lv1",
+    "task_type_name": "QC Prefabs Environment Lighting (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Pembuatan Scenario 3D (Unity) Lv1",
+    "task_type_name": "Pembuatan Scenario 3D (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Pembuatan Scenario 3D (Unity) Lv2",
+    "task_type_name": "Pembuatan Scenario 3D (Unity)",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Path Making (Unity) Lv1",
+    "task_type_name": "Path Making (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Path Making (Unity) Lv2",
+    "task_type_name": "Path Making (Unity)",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Assembly Scene (Unity) Lv1",
+    "task_type_name": "Assembly Scene (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Assembly Scene (Unity) Lv2",
+    "task_type_name": "Assembly Scene (Unity)",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Prefabs Scenario (Unity) Lv1",
+    "task_type_name": "QC Prefabs Scenario (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Mechanical 3D Scenario Assembly Lv1",
+    "task_type_name": "Mechanical 3D Scenario Assembly",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Skenario",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Mechanical 3D Scenario Assembly Lv2",
+    "task_type_name": "Mechanical 3D Scenario Assembly",
+    "level": 2,
+    "ratio": 0.3,
+    "deliverable": "3D Skenario",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Mechanical 3D Scenario Assembly Lv3",
+    "task_type_name": "Mechanical 3D Scenario Assembly",
+    "level": 3,
+    "ratio": 0.2,
+    "deliverable": "3D Skenario",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Assembly 3D Mechanical Lv1",
+    "task_type_name": "QC Assembly 3D Mechanical",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Skenario",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Modelling Character on CC Lv1",
+    "task_type_name": "Modelling Character on CC",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Character",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Modelling Character on CC Lv2",
+    "task_type_name": "Modelling Character on CC",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Character",
+    "page": 2
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Model 3D Character Lv1",
+    "task_type_name": "QC Model 3D Character",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Texturing Character's Skin and Hair Lv1",
+    "task_type_name": "Texturing Character's Skin and Hair",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Texturing Clothe''s Skin Lv1",
+    "task_type_name": "Texturing Clothe''s Skin",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Character 3D Cloth Assembly Lv1",
+    "task_type_name": "Character 3D Cloth Assembly",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Texture 3D Character Lv1",
+    "task_type_name": "QC Texture 3D Character",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Character Rigging Lv1",
+    "task_type_name": "Character Rigging",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Character Rigging Lv2",
+    "task_type_name": "Character Rigging",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Character Cut and Weightpaint Lv1",
+    "task_type_name": "Character Cut and Weightpaint",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Rigging 3D Character Lv1",
+    "task_type_name": "QC Rigging 3D Character",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Prefabs Making (Character) (Unity) Lv1",
+    "task_type_name": "Prefabs Making (Character) (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Prefabs Making (Character) (Unity) Lv2",
+    "task_type_name": "Prefabs Making (Character) (Unity)",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Prefabs Character (Unity) Lv1",
+    "task_type_name": "QC Prefabs Character (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Character Animation Lv1",
+    "task_type_name": "Character Animation",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Character Animation Lv2",
+    "task_type_name": "Character Animation",
+    "level": 2,
+    "ratio": 0.3,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Character Animation Lv3",
+    "task_type_name": "Character Animation",
+    "level": 3,
+    "ratio": 0.2,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Mechanical Animation Lv1",
+    "task_type_name": "Mechanical Animation",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "VFX Animation Lv1",
+    "task_type_name": "VFX Animation",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Animation 3D Character Lv1",
+    "task_type_name": "QC Animation 3D Character",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "QC Prefabs Character Animation (Unity) Lv1",
+    "task_type_name": "QC Prefabs Character Animation (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Prefabs Action di (Unity) Lv1",
+    "task_type_name": "Prefabs Action di (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Stamp 3D Lv1",
+    "task_type_name": "Stamp 3D",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "2D - Task Lainnya",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Stamp 3D Lv2",
+    "task_type_name": "Stamp 3D",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "2D - Task Lainnya",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "Video Content Lv3",
+    "task_type_name": "Video Content",
+    "level": 3,
+    "ratio": 1.0,
+    "deliverable": "VA - Template/Bumper",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "UI Design Lv1",
+    "task_type_name": "UI Design",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "UI",
+    "page": 3
+  },
+  {
+    "product": "VR General Scenario",
+    "task_row": "UI Figma Configuration Lv1",
+    "task_type_name": "UI Figma Configuration",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "UI",
+    "page": 3
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv1",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 1,
+    "ratio": 0.2,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv2",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 2,
+    "ratio": 0.3,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv3",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 3,
+    "ratio": 0.3,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Materi Deskriptif atau Naratif Gameplay Lv4",
+    "task_type_name": "Materi Deskriptif atau Naratif Gameplay",
+    "level": 4,
+    "ratio": 0.2,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Visual Brief Lv1",
+    "task_type_name": "Visual Brief",
+    "level": 1,
+    "ratio": 0.3,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Visual Brief Lv2",
+    "task_type_name": "Visual Brief",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Visual Brief Lv3",
+    "task_type_name": "Visual Brief",
+    "level": 3,
+    "ratio": 0.2,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Storyboard Gameplay Lv1",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 1,
+    "ratio": 0.2,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Storyboard Gameplay Lv2",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Storyboard Gameplay Lv3",
+    "task_type_name": "Storyboard Gameplay",
+    "level": 3,
+    "ratio": 0.3,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Konten Pendukung Gameplay Lv1",
+    "task_type_name": "Konten Pendukung Gameplay",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "QC Materi Deskriptif atau Naratif Gameplay Lv1",
+    "task_type_name": "QC Materi Deskriptif atau Naratif Gameplay",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "QC Visual Brief Lv1",
+    "task_type_name": "QC Visual Brief",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "QC Storyboard Gameplay Lv1",
+    "task_type_name": "QC Storyboard Gameplay",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "QC Konten Pendukung - Gameplay Lv1",
+    "task_type_name": "QC Konten Pendukung - Gameplay",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "Skenario Gameplay",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Modelling Product Content Lv1",
+    "task_type_name": "Modelling Product Content",
+    "level": 1,
+    "ratio": 0.25,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Modelling Product Content Lv2",
+    "task_type_name": "Modelling Product Content",
+    "level": 2,
+    "ratio": 0.25,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Modelling Product Content Lv3",
+    "task_type_name": "Modelling Product Content",
+    "level": 3,
+    "ratio": 0.25,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Modelling Product Content Lv4",
+    "task_type_name": "Modelling Product Content",
+    "level": 4,
+    "ratio": 0.25,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Texturing Product Content Lv1",
+    "task_type_name": "Texturing Product Content",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Texturing Product Content Lv2",
+    "task_type_name": "Texturing Product Content",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Mechanical Rigging Lv1",
+    "task_type_name": "Mechanical Rigging",
+    "level": 1,
+    "ratio": 0.2,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Prefabs Making (Product Content/Hardsurface) (Unity) Lv1",
+    "task_type_name": "Prefabs Making (Product Content/Hardsurface) (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "QC Model 3D Hardsurface Lv1",
+    "task_type_name": "QC Model 3D Hardsurface",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "QC Texture 3D Hardsurface Lv1",
+    "task_type_name": "QC Texture 3D Hardsurface",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Product Content/Envi",
+    "page": 1
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "QC Rigging 3D Mechanical Lv1",
+    "task_type_name": "QC Rigging 3D Mechanical",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Product Content/Envi",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "QC Prefabs Product Content Hardsurface (Unity) Lv1",
+    "task_type_name": "QC Prefabs Product Content Hardsurface (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Product Content/Envi",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Modelling Environment Lv1",
+    "task_type_name": "Modelling Environment",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Texturing Environment Interior Lv1",
+    "task_type_name": "Texturing Environment Interior",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Texturing Environment Exterior Lv1",
+    "task_type_name": "Texturing Environment Exterior",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Environment 3D Assembly Lv1",
+    "task_type_name": "Environment 3D Assembly",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Prefabs Making (Environment) (Unity) Lv1",
+    "task_type_name": "Prefabs Making (Environment) (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Assembly Material Decal (Environment) (Unity) Lv1",
+    "task_type_name": "Assembly Material Decal (Environment) (Unity)",
+    "level": 1,
+    "ratio": 0.2,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Assembly Modular (Environment) (Unity) Lv1",
+    "task_type_name": "Assembly Modular (Environment) (Unity)",
+    "level": 1,
+    "ratio": 0.2,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Prefabs Making (Lighting and Volumetric Setting) (Unity) Lv1",
+    "task_type_name": "Prefabs Making (Lighting and Volumetric Setting) (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "QC Model 3D Environment Lv1",
+    "task_type_name": "QC Model 3D Environment",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "QC Texture 3D Environment Lv1",
+    "task_type_name": "QC Texture 3D Environment",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "QC Assembly 3D Environment Lv1",
+    "task_type_name": "QC Assembly 3D Environment",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Environment",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "QC Prefabs Environment (Unity) Lv1",
+    "task_type_name": "QC Prefabs Environment (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "QC Prefabs Environment Lighting (Unity) Lv1",
+    "task_type_name": "QC Prefabs Environment Lighting (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Assembly Scene (Unity) Lv1",
+    "task_type_name": "Assembly Scene (Unity)",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Assembly Scene (Unity) Lv2",
+    "task_type_name": "Assembly Scene (Unity)",
+    "level": 2,
+    "ratio": 0.5,
+    "deliverable": "3D Game Object Unity",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Modelling Character on CC Lv1",
+    "task_type_name": "Modelling Character on CC",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Texturing Character's Skin and Hair Lv1",
+    "task_type_name": "Texturing Character's Skin and Hair",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Texturing Clothe''s Skin Lv1",
+    "task_type_name": "Texturing Clothe''s Skin",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Character 3D Cloth Assembly Lv1",
+    "task_type_name": "Character 3D Cloth Assembly",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Character Rigging Lv1",
+    "task_type_name": "Character Rigging",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Character Cut and Weightpaint Lv1",
+    "task_type_name": "Character Cut and Weightpaint",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Prefabs Making (Character) (Unity) Lv1",
+    "task_type_name": "Prefabs Making (Character) (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "QC Model 3D Character Lv1",
+    "task_type_name": "QC Model 3D Character",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 2
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "QC Texture 3D Character Lv1",
+    "task_type_name": "QC Texture 3D Character",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "QC Rigging 3D Character Lv1",
+    "task_type_name": "QC Rigging 3D Character",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "QC Prefabs Character (Unity) Lv1",
+    "task_type_name": "QC Prefabs Character (Unity)",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Character",
+    "page": 3
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Character Animation Lv1",
+    "task_type_name": "Character Animation",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Mechanical Animation Lv1",
+    "task_type_name": "Mechanical Animation",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "3D Animasi",
+    "page": 3
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Stamp 3D Lv1",
+    "task_type_name": "Stamp 3D",
+    "level": 1,
+    "ratio": 1.0,
+    "deliverable": "2D - Task Lainnya",
+    "page": 3
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "Video Content Lv3",
+    "task_type_name": "Video Content",
+    "level": 3,
+    "ratio": 1.0,
+    "deliverable": "VA - Template/Bumper",
+    "page": 3
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "UI Design Lv1",
+    "task_type_name": "UI Design",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "UI",
+    "page": 3
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "UI Design Lv2",
+    "task_type_name": "UI Design",
+    "level": 2,
+    "ratio": 0.3,
+    "deliverable": "UI",
+    "page": 3
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "UI Design Lv3",
+    "task_type_name": "UI Design",
+    "level": 3,
+    "ratio": 0.2,
+    "deliverable": "UI",
+    "page": 3
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "UI Figma Configuration Lv1",
+    "task_type_name": "UI Figma Configuration",
+    "level": 1,
+    "ratio": 0.5,
+    "deliverable": "UI",
+    "page": 3
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "UI Figma Configuration Lv2",
+    "task_type_name": "UI Figma Configuration",
+    "level": 2,
+    "ratio": 0.3,
+    "deliverable": "UI",
+    "page": 3
+  },
+  {
+    "product": "Jenius VR",
+    "task_row": "UI Figma Configuration Lv3",
+    "task_type_name": "UI Figma Configuration",
+    "level": 3,
+    "ratio": 0.2,
+    "deliverable": "UI",
+    "page": 3
+  }
+]

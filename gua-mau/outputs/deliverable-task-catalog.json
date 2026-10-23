@@ -1,0 +1,1365 @@
+{
+  "source_workbook": "CD-DOC_PERHITUNGAN_PROJECT_NEW_JENIUS_VR-FIT007-20260724.xlsx",
+  "source_sheet": "Sheet2",
+  "matching_rule": "Remove LvN suffix; exact normalized match first; otherwise highest normalized string similarity among existing active task types. Never create task types.",
+  "deliverables": [
+    {
+      "deliverable": "3D Product Content/Envi",
+      "task_types": [
+        "Modelling Product Content",
+        "QC Model 3D Hardsurface",
+        "Texturing Product Content",
+        "QC Texture 3D Hardsurface",
+        "Mechanical Rigging",
+        "QC Rigging 3D Mechanical",
+        "Prefabs Making (Product Content/Hardsurface) (Unity)",
+        "QC Prefabs Product Content Hardsurface (Unity)",
+        "Prefabs Product Content (Unreal)",
+        "QC Prefabs Product Content Hardsurface (Unreal)",
+        "Prefabs Character di VBS 4",
+        "Prefabs Bangunan Unik di VBS 4",
+        "QC Prefabs Product Content Hardsurface (VBS)",
+        "Assembly Product Content (Unreal)"
+      ],
+      "source_mappings": [
+        {
+          "source": "Modelling Product Content Lv1",
+          "task_type": "Modelling Product Content"
+        },
+        {
+          "source": "Modelling Product Content Lv2",
+          "task_type": "Modelling Product Content"
+        },
+        {
+          "source": "Modelling Product Content Lv3",
+          "task_type": "Modelling Product Content"
+        },
+        {
+          "source": "Modelling Product Content Lv4",
+          "task_type": "Modelling Product Content"
+        },
+        {
+          "source": "Modelling Product Content Lv5",
+          "task_type": "Modelling Product Content"
+        },
+        {
+          "source": "QC Model 3D Hardsurface",
+          "task_type": "QC Model 3D Hardsurface"
+        },
+        {
+          "source": "Texturing Product Content Lv1",
+          "task_type": "Texturing Product Content"
+        },
+        {
+          "source": "Texturing Product Content Lv2",
+          "task_type": "Texturing Product Content"
+        },
+        {
+          "source": "Texturing Product Content Lv3",
+          "task_type": "Texturing Product Content"
+        },
+        {
+          "source": "Texturing Product Content Lv4",
+          "task_type": "Texturing Product Content"
+        },
+        {
+          "source": "QC Texture 3D Hardsurface",
+          "task_type": "QC Texture 3D Hardsurface"
+        },
+        {
+          "source": "Mechanical Rigging Lv1",
+          "task_type": "Mechanical Rigging"
+        },
+        {
+          "source": "Mechanical Rigging Lv2",
+          "task_type": "Mechanical Rigging"
+        },
+        {
+          "source": "Mechanical Rigging Lv3",
+          "task_type": "Mechanical Rigging"
+        },
+        {
+          "source": "QC Rigging 3D Mechanical",
+          "task_type": "QC Rigging 3D Mechanical"
+        },
+        {
+          "source": "Prefabs Making (Product Content/Hardsurface) (Unity)",
+          "task_type": "Prefabs Making (Product Content/Hardsurface) (Unity)"
+        },
+        {
+          "source": "QC Prefabs Product Content Hardsurface (Unity)",
+          "task_type": "QC Prefabs Product Content Hardsurface (Unity)"
+        },
+        {
+          "source": "Prefabs Product Content (Unreal)",
+          "task_type": "Prefabs Product Content (Unreal)"
+        },
+        {
+          "source": "QC Prefabs Product Content Hardsurface (Unreal)",
+          "task_type": "QC Prefabs Product Content Hardsurface (Unreal)"
+        },
+        {
+          "source": "Prefabs Senjata di VBS 4",
+          "task_type": "Prefabs Character di VBS 4"
+        },
+        {
+          "source": "Prefabs Kendaraan Darat di VBS 4",
+          "task_type": "Prefabs Character di VBS 4"
+        },
+        {
+          "source": "Prefabs Kendaraan Laut di VBS 4",
+          "task_type": "Prefabs Character di VBS 4"
+        },
+        {
+          "source": "Prefabs Kendaraan Udara di VBS 4",
+          "task_type": "Prefabs Character di VBS 4"
+        },
+        {
+          "source": "Prefabs Bangunan Unik di VBS 4",
+          "task_type": "Prefabs Bangunan Unik di VBS 4"
+        },
+        {
+          "source": "QC Prefabs Product Content Hardsurface (VBS)",
+          "task_type": "QC Prefabs Product Content Hardsurface (VBS)"
+        },
+        {
+          "source": "Assembly Product Content (Unreal)",
+          "task_type": "Assembly Product Content (Unreal)"
+        }
+      ]
+    },
+    {
+      "deliverable": "3D Character",
+      "task_types": [
+        "Modelling Character",
+        "Modelling Character on CC",
+        "QC Model 3D Character",
+        "Texturing Character's Skin and Hair",
+        "Texturing Clothe''s Skin",
+        "Character 3D Cloth Assembly",
+        "QC Texture 3D Character",
+        "Character Rigging",
+        "Rigging Character on Rigify",
+        "Character Cut and Weightpaint",
+        "QC Rigging 3D Character",
+        "Prefabs Making (Character) (Unity)",
+        "QC Prefabs Character (Unity)",
+        "Prefabs Making (Character) (Unreal)",
+        "QC Prefabs Character (Unreal)",
+        "QC Prefabs Character (VBS)"
+      ],
+      "source_mappings": [
+        {
+          "source": "Modelling Character Lv1",
+          "task_type": "Modelling Character"
+        },
+        {
+          "source": "Modelling Character Lv2",
+          "task_type": "Modelling Character"
+        },
+        {
+          "source": "Modelling Character Lv3",
+          "task_type": "Modelling Character"
+        },
+        {
+          "source": "Modelling Character Lv1 on CC",
+          "task_type": "Modelling Character on CC"
+        },
+        {
+          "source": "Modelling Character Lv2 on CC",
+          "task_type": "Modelling Character on CC"
+        },
+        {
+          "source": "Modelling Character Lv3 on CC",
+          "task_type": "Modelling Character on CC"
+        },
+        {
+          "source": "QC Model 3D Character",
+          "task_type": "QC Model 3D Character"
+        },
+        {
+          "source": "Texturing Character's Skin and Hair Lv1",
+          "task_type": "Texturing Character's Skin and Hair"
+        },
+        {
+          "source": "Texturing Character's Skin and Hair Lv2",
+          "task_type": "Texturing Character's Skin and Hair"
+        },
+        {
+          "source": "Texturing Character's Skin and Hair Lv3",
+          "task_type": "Texturing Character's Skin and Hair"
+        },
+        {
+          "source": "Texturing Clothe''s Skin Lv1",
+          "task_type": "Texturing Clothe''s Skin"
+        },
+        {
+          "source": "Texturing Clothe''s Skin Lv2",
+          "task_type": "Texturing Clothe''s Skin"
+        },
+        {
+          "source": "Character 3D Cloth Assembly",
+          "task_type": "Character 3D Cloth Assembly"
+        },
+        {
+          "source": "QC Texture 3D Character",
+          "task_type": "QC Texture 3D Character"
+        },
+        {
+          "source": "Character Rigging Lv1",
+          "task_type": "Character Rigging"
+        },
+        {
+          "source": "Character Rigging Lv2",
+          "task_type": "Character Rigging"
+        },
+        {
+          "source": "Character Rigging Lv3",
+          "task_type": "Character Rigging"
+        },
+        {
+          "source": "Rigging Character on Rigify",
+          "task_type": "Rigging Character on Rigify"
+        },
+        {
+          "source": "Character Cut and Weightpaint",
+          "task_type": "Character Cut and Weightpaint"
+        },
+        {
+          "source": "QC Rigging 3D Character",
+          "task_type": "QC Rigging 3D Character"
+        },
+        {
+          "source": "Prefabs Making (Character) Lv1 (Unity)",
+          "task_type": "Prefabs Making (Character) (Unity)"
+        },
+        {
+          "source": "Prefabs Making (Character) Lv2 (Unity)",
+          "task_type": "Prefabs Making (Character) (Unity)"
+        },
+        {
+          "source": "QC Prefabs Character (Unity)",
+          "task_type": "QC Prefabs Character (Unity)"
+        },
+        {
+          "source": "Prefabs Making (Character) Lv1 (Unreal)",
+          "task_type": "Prefabs Making (Character) (Unreal)"
+        },
+        {
+          "source": "Prefabs Making (Character) Lv2 (Unreal)",
+          "task_type": "Prefabs Making (Character) (Unreal)"
+        },
+        {
+          "source": "QC Prefabs Character (Unreal)",
+          "task_type": "QC Prefabs Character (Unreal)"
+        },
+        {
+          "source": "QC Prefabs Character (VBS)",
+          "task_type": "QC Prefabs Character (VBS)"
+        }
+      ]
+    },
+    {
+      "deliverable": "3D Environment",
+      "task_types": [
+        "Modelling Environment",
+        "QC Model 3D Environment",
+        "Texturing Environment Interior",
+        "Texturing Environment Exterior",
+        "QC Texture 3D Environment",
+        "Environment 3D Assembly",
+        "QC Assembly 3D Environment",
+        "Assembly Modular (Environment) (Unity)",
+        "Assembly Material Decal (Environment) (Unity)",
+        "Prefabs Making (Environment) (Unity)",
+        "QC Prefabs Environment (Unity)",
+        "Prefabs Making (Lighting and Volumetric Setting) (Unity)",
+        "QC Prefabs Environment Lighting (Unity)",
+        "Assembly Material Decal (Environment) (Unreal)",
+        "Assembly Modular (Environment) (Unreal)",
+        "Prefabs Making (Environment) (Unreal)",
+        "QC Prefabs Environment (Unreal)",
+        "QC Prefabs Environment Lighting (Unreal)",
+        "QC Prefabs Environment (VBS)",
+        "QC Prefabs Environment Lighting (VBS)"
+      ],
+      "source_mappings": [
+        {
+          "source": "Modelling Environment Lv1",
+          "task_type": "Modelling Environment"
+        },
+        {
+          "source": "Modelling Environment Lv2",
+          "task_type": "Modelling Environment"
+        },
+        {
+          "source": "Modelling Environment Lv3",
+          "task_type": "Modelling Environment"
+        },
+        {
+          "source": "QC Model 3D Environment",
+          "task_type": "QC Model 3D Environment"
+        },
+        {
+          "source": "Texturing Environment Interior Lv1",
+          "task_type": "Texturing Environment Interior"
+        },
+        {
+          "source": "Texturing Environment Interior Lv2",
+          "task_type": "Texturing Environment Interior"
+        },
+        {
+          "source": "Texturing Environment Exterior Lv1",
+          "task_type": "Texturing Environment Exterior"
+        },
+        {
+          "source": "Texturing Environment Exterior Lv2",
+          "task_type": "Texturing Environment Exterior"
+        },
+        {
+          "source": "QC Texture 3D Environment",
+          "task_type": "QC Texture 3D Environment"
+        },
+        {
+          "source": "Environment 3D Assembly Lv1",
+          "task_type": "Environment 3D Assembly"
+        },
+        {
+          "source": "Environment 3D Assembly Lv2",
+          "task_type": "Environment 3D Assembly"
+        },
+        {
+          "source": "QC Assembly 3D Environment",
+          "task_type": "QC Assembly 3D Environment"
+        },
+        {
+          "source": "Assembly Modular (Environment) (Unity)",
+          "task_type": "Assembly Modular (Environment) (Unity)"
+        },
+        {
+          "source": "Assembly Material Decal (Environment) (Unity)",
+          "task_type": "Assembly Material Decal (Environment) (Unity)"
+        },
+        {
+          "source": "Prefabs Making (Environment) (Unity)",
+          "task_type": "Prefabs Making (Environment) (Unity)"
+        },
+        {
+          "source": "QC Prefabs Environment (Unity)",
+          "task_type": "QC Prefabs Environment (Unity)"
+        },
+        {
+          "source": "Prefabs Making (Lighting and Volumetric Setting) Lv1 (Unity)",
+          "task_type": "Prefabs Making (Lighting and Volumetric Setting) (Unity)"
+        },
+        {
+          "source": "Prefabs Making (Lighting and Volumetric Setting) Lv2 (Unity)",
+          "task_type": "Prefabs Making (Lighting and Volumetric Setting) (Unity)"
+        },
+        {
+          "source": "QC Prefabs Environment Lighting (Unity)",
+          "task_type": "QC Prefabs Environment Lighting (Unity)"
+        },
+        {
+          "source": "Assembly Material Decal (Environment) (Unreal)",
+          "task_type": "Assembly Material Decal (Environment) (Unreal)"
+        },
+        {
+          "source": "Assembly Modular (Environment) (Unreal)",
+          "task_type": "Assembly Modular (Environment) (Unreal)"
+        },
+        {
+          "source": "Prefabs Making (Environment) (Unreal)",
+          "task_type": "Prefabs Making (Environment) (Unreal)"
+        },
+        {
+          "source": "QC Prefabs Environment (Unreal)",
+          "task_type": "QC Prefabs Environment (Unreal)"
+        },
+        {
+          "source": "QC Prefabs Environment Lighting (Unreal)",
+          "task_type": "QC Prefabs Environment Lighting (Unreal)"
+        },
+        {
+          "source": "QC Prefabs Environment (VBS)",
+          "task_type": "QC Prefabs Environment (VBS)"
+        },
+        {
+          "source": "QC Prefabs Environment Lighting (VBS)",
+          "task_type": "QC Prefabs Environment Lighting (VBS)"
+        }
+      ]
+    },
+    {
+      "deliverable": "3D Animasi",
+      "task_types": [
+        "Character Animation",
+        "QC Animation 3D Character",
+        "Mechanical Animation",
+        "QC Animation 3D Mechanical",
+        "VFX Animation",
+        "360 Item Animation",
+        "Camera Cinematic Blender",
+        "Prefabs Action di (Unity)",
+        "QC Prefabs Character Animation (Unity)",
+        "QC Prefabs Mechanical Animation (Unity)",
+        "QC Prefabs Character Animation (Unreal)",
+        "QC Prefabs Mechanical Animation (Unreal)"
+      ],
+      "source_mappings": [
+        {
+          "source": "Character Animation Lv1",
+          "task_type": "Character Animation"
+        },
+        {
+          "source": "Character Animation Lv2",
+          "task_type": "Character Animation"
+        },
+        {
+          "source": "Character Animation Lv3",
+          "task_type": "Character Animation"
+        },
+        {
+          "source": "QC Animation 3D Character",
+          "task_type": "QC Animation 3D Character"
+        },
+        {
+          "source": "Mechanical Animation Lv1",
+          "task_type": "Mechanical Animation"
+        },
+        {
+          "source": "Mechanical Animation Lv2",
+          "task_type": "Mechanical Animation"
+        },
+        {
+          "source": "Mechanical Animation Lv3",
+          "task_type": "Mechanical Animation"
+        },
+        {
+          "source": "QC Animation 3D Mechanical",
+          "task_type": "QC Animation 3D Mechanical"
+        },
+        {
+          "source": "VFX Animation Lv1",
+          "task_type": "VFX Animation"
+        },
+        {
+          "source": "VFX Animation Lv2",
+          "task_type": "VFX Animation"
+        },
+        {
+          "source": "VFX Animation Lv3",
+          "task_type": "VFX Animation"
+        },
+        {
+          "source": "360 Item Animation",
+          "task_type": "360 Item Animation"
+        },
+        {
+          "source": "Camera Cinematic Blender",
+          "task_type": "Camera Cinematic Blender"
+        },
+        {
+          "source": "Prefabs Action di (Unity)",
+          "task_type": "Prefabs Action di (Unity)"
+        },
+        {
+          "source": "QC Prefabs Character Animation (Unity)",
+          "task_type": "QC Prefabs Character Animation (Unity)"
+        },
+        {
+          "source": "QC Prefabs Mechanical Animation (Unity)",
+          "task_type": "QC Prefabs Mechanical Animation (Unity)"
+        },
+        {
+          "source": "QC Prefabs Character Animation (Unreal)",
+          "task_type": "QC Prefabs Character Animation (Unreal)"
+        },
+        {
+          "source": "QC Prefabs Mechanical Animation (Unreal)",
+          "task_type": "QC Prefabs Mechanical Animation (Unreal)"
+        }
+      ]
+    },
+    {
+      "deliverable": "3D Render",
+      "task_types": [
+        "Render Preparation Mix",
+        "Render Preparation Image",
+        "Render Preparation Anim 360",
+        "Render Preparation Cinematic",
+        "Rendering Item Satuan 360° (PC 3D)",
+        "Rendering Assembly (PC 3D)",
+        "Rendering Materi (PC 3D)",
+        "Rendering Scene without Particle (PC 3D)",
+        "Rendering Scene with Particle (PC 3D)",
+        "Rendering Item Satuan 360° (Render Farm)",
+        "Rendering Assembly (Render Farm)",
+        "Rendering Materi (Render Farm)",
+        "Rendering Scene without Particle (Render Farm)",
+        "Rendering Scene with Particle (Render Farm)"
+      ],
+      "source_mappings": [
+        {
+          "source": "Render Preparation Mix",
+          "task_type": "Render Preparation Mix"
+        },
+        {
+          "source": "Render Preparation Image",
+          "task_type": "Render Preparation Image"
+        },
+        {
+          "source": "Render Preparation Anim 360",
+          "task_type": "Render Preparation Anim 360"
+        },
+        {
+          "source": "Render Preparation Cinematic",
+          "task_type": "Render Preparation Cinematic"
+        },
+        {
+          "source": "Rendering Item Satuan 360° (PC 3D)",
+          "task_type": "Rendering Item Satuan 360° (PC 3D)"
+        },
+        {
+          "source": "Rendering Assembly (PC 3D)",
+          "task_type": "Rendering Assembly (PC 3D)"
+        },
+        {
+          "source": "Rendering Materi (PC 3D)",
+          "task_type": "Rendering Materi (PC 3D)"
+        },
+        {
+          "source": "Rendering Scene without Particle (PC 3D)",
+          "task_type": "Rendering Scene without Particle (PC 3D)"
+        },
+        {
+          "source": "Rendering Scene with Particle (PC 3D)",
+          "task_type": "Rendering Scene with Particle (PC 3D)"
+        },
+        {
+          "source": "Rendering Item Ssatuan 360° (Render Farm)",
+          "task_type": "Rendering Item Satuan 360° (Render Farm)"
+        },
+        {
+          "source": "Rendering Assembly (Render Farm)",
+          "task_type": "Rendering Assembly (Render Farm)"
+        },
+        {
+          "source": "Rendering Materi (Render Farm)",
+          "task_type": "Rendering Materi (Render Farm)"
+        },
+        {
+          "source": "Rendering Scene without Particle (Render Farm)",
+          "task_type": "Rendering Scene without Particle (Render Farm)"
+        },
+        {
+          "source": "Rendering Scene with Particle (Render Farm)",
+          "task_type": "Rendering Scene with Particle (Render Farm)"
+        }
+      ]
+    },
+    {
+      "deliverable": "3D Skenario",
+      "task_types": [
+        "Mechanical 3D Scenario Assembly",
+        "QC Assembly 3D Mechanical"
+      ],
+      "source_mappings": [
+        {
+          "source": "Mechanical 3D Scenario Assembly Lv1",
+          "task_type": "Mechanical 3D Scenario Assembly"
+        },
+        {
+          "source": "Mechanical 3D Scenario Assembly Lv2",
+          "task_type": "Mechanical 3D Scenario Assembly"
+        },
+        {
+          "source": "Mechanical 3D Scenario Assembly Lv3",
+          "task_type": "Mechanical 3D Scenario Assembly"
+        },
+        {
+          "source": "QC Assembly 3D Mechanical",
+          "task_type": "QC Assembly 3D Mechanical"
+        }
+      ]
+    },
+    {
+      "deliverable": "3D Terrain",
+      "task_types": [
+        "Mendapatkan Titik Tengah Koordinat Terrain",
+        "Generate Geospatial Data (QGIS)",
+        "Mengambil Data Jalan (QGIS)",
+        "Perbaikan Data Jalan Rusak (QGIS)",
+        "Mengambil Data Bangunan Common (QGIS)",
+        "Perbaikan Data Bangunan Common (QGIS)",
+        "Membuat Data Bangunan Undetected (QGIS)",
+        "Mengambil Data SUTET (QGIS)",
+        "Memberi Titik Bangunan Unik (QGIS)",
+        "Generate Land Contour Terrain (Terratools)",
+        "Mengatur Titik Lokasi Bangunan Unik (Terratools)",
+        "Generate Bangunan Common (Terratools)",
+        "Menghapus Bangunan Common yang Berada di Titik Bangunan Unik (Terratools)",
+        "Generating Bangunan Unik (Terratools)",
+        "Editing and Fixing Building (Blender)",
+        "Prefabs Terrain (Unreal)",
+        "Setting LOD Building (Unreal)",
+        "Adding Trees (Unreal)",
+        "Adding Lighting and Post-processing (Unreal)",
+        "Assembly Bangunan di VBS 4",
+        "Assembly Objek Lain di VBS 4"
+      ],
+      "source_mappings": [
+        {
+          "source": "Mendapatkan Titik Tengah Koordinat Terrain",
+          "task_type": "Mendapatkan Titik Tengah Koordinat Terrain"
+        },
+        {
+          "source": "Generate Geospatial Data (QGIS)",
+          "task_type": "Generate Geospatial Data (QGIS)"
+        },
+        {
+          "source": "Mengambil Data Jalan (QGIS)",
+          "task_type": "Mengambil Data Jalan (QGIS)"
+        },
+        {
+          "source": "Perbaikan Data Jalan Rusak (QGIS)",
+          "task_type": "Perbaikan Data Jalan Rusak (QGIS)"
+        },
+        {
+          "source": "Mengambil Data Bangunan Common (QGIS)",
+          "task_type": "Mengambil Data Bangunan Common (QGIS)"
+        },
+        {
+          "source": "Perbaikan Data Bangunan Common (QGIS)",
+          "task_type": "Perbaikan Data Bangunan Common (QGIS)"
+        },
+        {
+          "source": "Membuat Data Bangunan Undetected (QGIS)",
+          "task_type": "Membuat Data Bangunan Undetected (QGIS)"
+        },
+        {
+          "source": "Mengambil Data SUTET (QGIS)",
+          "task_type": "Mengambil Data SUTET (QGIS)"
+        },
+        {
+          "source": "Memberi Titik Bangunan Unik (QGIS)",
+          "task_type": "Memberi Titik Bangunan Unik (QGIS)"
+        },
+        {
+          "source": "Generate Land Contour Terrain (Terratools)",
+          "task_type": "Generate Land Contour Terrain (Terratools)"
+        },
+        {
+          "source": "Mengatur Titik Lokasi Bangunan Unik (Terratools)",
+          "task_type": "Mengatur Titik Lokasi Bangunan Unik (Terratools)"
+        },
+        {
+          "source": "Generate Bangunan Common (Terratools)",
+          "task_type": "Generate Bangunan Common (Terratools)"
+        },
+        {
+          "source": "Menghapus Bangunan Common yang Berada di Titik Bangunan Unik (Terratools)",
+          "task_type": "Menghapus Bangunan Common yang Berada di Titik Bangunan Unik (Terratools)"
+        },
+        {
+          "source": "Generating Bangunan Unik (Terratools)",
+          "task_type": "Generating Bangunan Unik (Terratools)"
+        },
+        {
+          "source": "Editing 3D Terrain (Blender)",
+          "task_type": "Editing and Fixing Building (Blender)"
+        },
+        {
+          "source": "Editing and Fixing Building (Blender)",
+          "task_type": "Editing and Fixing Building (Blender)"
+        },
+        {
+          "source": "Prefabs Terrain (Unreal)",
+          "task_type": "Prefabs Terrain (Unreal)"
+        },
+        {
+          "source": "Setting LOD Building (Unreal)",
+          "task_type": "Setting LOD Building (Unreal)"
+        },
+        {
+          "source": "Adding Trees (Unreal)",
+          "task_type": "Adding Trees (Unreal)"
+        },
+        {
+          "source": "Adding Lighting and Post-processing (Unreal)",
+          "task_type": "Adding Lighting and Post-processing (Unreal)"
+        },
+        {
+          "source": "Assembly Bangunan di VBS 4",
+          "task_type": "Assembly Bangunan di VBS 4"
+        },
+        {
+          "source": "Assembly Objek Lain di VBS 4",
+          "task_type": "Assembly Objek Lain di VBS 4"
+        }
+      ]
+    },
+    {
+      "deliverable": "3D Game Object Unity",
+      "task_types": [
+        "Pembuatan Scenario 3D (Unity)",
+        "Path Making (Unity)",
+        "Assembly Scene (Unity)",
+        "QC Prefabs Scenario (Unity)"
+      ],
+      "source_mappings": [
+        {
+          "source": "Pembuatan Scenario 3D Lv1 (Unity)",
+          "task_type": "Pembuatan Scenario 3D (Unity)"
+        },
+        {
+          "source": "Pembuatan Scenario 3D Lv2 (Unity)",
+          "task_type": "Pembuatan Scenario 3D (Unity)"
+        },
+        {
+          "source": "Path Making Lv1 (Unity)",
+          "task_type": "Path Making (Unity)"
+        },
+        {
+          "source": "Path Making Lv2 (Unity)",
+          "task_type": "Path Making (Unity)"
+        },
+        {
+          "source": "Assembly Scene Lv1 (Unity)",
+          "task_type": "Assembly Scene (Unity)"
+        },
+        {
+          "source": "Assembly Scene Lv2 (Unity)",
+          "task_type": "Assembly Scene (Unity)"
+        },
+        {
+          "source": "QC Prefabs Scenario (Unity)",
+          "task_type": "QC Prefabs Scenario (Unity)"
+        }
+      ]
+    },
+    {
+      "deliverable": "3D Game Object Unreal",
+      "task_types": [
+        "Pembuatan Scenario 3D (Unreal)",
+        "Assembly Scene (Unreal)",
+        "Camera Cinematic (Unreal)",
+        "QC Prefabs Scenario (Unreal)"
+      ],
+      "source_mappings": [
+        {
+          "source": "Pembuatan Scenario 3D Lv1 (Unreal)",
+          "task_type": "Pembuatan Scenario 3D (Unreal)"
+        },
+        {
+          "source": "Pembuatan Scenario 3D Lv2 (Unreal)",
+          "task_type": "Pembuatan Scenario 3D (Unreal)"
+        },
+        {
+          "source": "Assembly Scene Lv1 (Unreal)",
+          "task_type": "Assembly Scene (Unreal)"
+        },
+        {
+          "source": "Assembly Scene Lv2 (Unreal)",
+          "task_type": "Assembly Scene (Unreal)"
+        },
+        {
+          "source": "Camera Cinematic (Unreal)",
+          "task_type": "Camera Cinematic (Unreal)"
+        },
+        {
+          "source": "QC Prefabs Scenario (Unreal)",
+          "task_type": "QC Prefabs Scenario (Unreal)"
+        }
+      ]
+    },
+    {
+      "deliverable": "3D Game Object VBS",
+      "task_types": [
+        "Pembuatan Scenario 3D (VBS)",
+        "QC Prefabs Character Animation (VBS)",
+        "QC Prefabs Mechanical Animation (VBS)",
+        "QC Prefabs Scenario (VBS)"
+      ],
+      "source_mappings": [
+        {
+          "source": "Pembuatan Scenario 3D Lv1 (VBS)",
+          "task_type": "Pembuatan Scenario 3D (VBS)"
+        },
+        {
+          "source": "Pembuatan Scenario 3D Lv2 (VBS)",
+          "task_type": "Pembuatan Scenario 3D (VBS)"
+        },
+        {
+          "source": "QC Prefabs Character Animation (VBS)",
+          "task_type": "QC Prefabs Character Animation (VBS)"
+        },
+        {
+          "source": "QC Prefabs Mechanical Animation (VBS)",
+          "task_type": "QC Prefabs Mechanical Animation (VBS)"
+        },
+        {
+          "source": "QC Prefabs Scenario (VBS)",
+          "task_type": "QC Prefabs Scenario (VBS)"
+        }
+      ]
+    },
+    {
+      "deliverable": "Skenario Video",
+      "task_types": [
+        "Pencarian, Pengumpulan, dan Analisis Data (CF) - Video",
+        "Pencarian, Pengumpulan, dan Analisis Data (Procedural) - Video",
+        "Pencarian, Pengumpulan, dan Analisis Data (General) - Video",
+        "Materi Deskriptif atau Naratif Video",
+        "QC Materi Deskriptif atau Naratif Video",
+        "Visual Planning Board Video",
+        "QC Visual Planning Board - Video",
+        "Storyboard Video",
+        "QC Storyboard Video",
+        "Concept Art Video",
+        "QC Concept Art - Video",
+        "Konten Pendukung Video",
+        "QC Konten Pendukung - Video",
+        "Aset 2D",
+        "Video Hanjar"
+      ],
+      "source_mappings": [
+        {
+          "source": "Pencarian, Pengumpulan, dan Analisis Data (CF) - Video",
+          "task_type": "Pencarian, Pengumpulan, dan Analisis Data (CF) - Video"
+        },
+        {
+          "source": "Pencarian, Pengumpulan, dan Analisis Data (Procedural) - Video",
+          "task_type": "Pencarian, Pengumpulan, dan Analisis Data (Procedural) - Video"
+        },
+        {
+          "source": "Pencarian, Pengumpulan, dan Analisis Data (General) - Video",
+          "task_type": "Pencarian, Pengumpulan, dan Analisis Data (General) - Video"
+        },
+        {
+          "source": "Materi Deskriptif atau Naratif Video Lv1",
+          "task_type": "Materi Deskriptif atau Naratif Video"
+        },
+        {
+          "source": "Materi Deskriptif atau Naratif Video Lv2",
+          "task_type": "Materi Deskriptif atau Naratif Video"
+        },
+        {
+          "source": "Materi Deskriptif atau Naratif Video Lv3",
+          "task_type": "Materi Deskriptif atau Naratif Video"
+        },
+        {
+          "source": "Materi Deskriptif atau Naratif Video Lv4",
+          "task_type": "Materi Deskriptif atau Naratif Video"
+        },
+        {
+          "source": "QC Materi Deskriptif atau Naratif - Video",
+          "task_type": "QC Materi Deskriptif atau Naratif Video"
+        },
+        {
+          "source": "Visual Planning Board Video Lv1",
+          "task_type": "Visual Planning Board Video"
+        },
+        {
+          "source": "Visual Planning Board Video Lv2",
+          "task_type": "Visual Planning Board Video"
+        },
+        {
+          "source": "Visual Planning Board Video Lv3",
+          "task_type": "Visual Planning Board Video"
+        },
+        {
+          "source": "QC Visual Planning Board - Video",
+          "task_type": "QC Visual Planning Board - Video"
+        },
+        {
+          "source": "Storyboard Video Lv1",
+          "task_type": "Storyboard Video"
+        },
+        {
+          "source": "Storyboard Video Lv2",
+          "task_type": "Storyboard Video"
+        },
+        {
+          "source": "Storyboard Video Lv3",
+          "task_type": "Storyboard Video"
+        },
+        {
+          "source": "Storyboard Video Lv4",
+          "task_type": "Storyboard Video"
+        },
+        {
+          "source": "QC Storyboard Video",
+          "task_type": "QC Storyboard Video"
+        },
+        {
+          "source": "Concept Art Video Lv1",
+          "task_type": "Concept Art Video"
+        },
+        {
+          "source": "Concept Art Video Lv2",
+          "task_type": "Concept Art Video"
+        },
+        {
+          "source": "Concept Art Video Lv3",
+          "task_type": "Concept Art Video"
+        },
+        {
+          "source": "QC Concept Art - Video",
+          "task_type": "QC Concept Art - Video"
+        },
+        {
+          "source": "Konten Pendukung Video Lv1",
+          "task_type": "Konten Pendukung Video"
+        },
+        {
+          "source": "Konten Pendukung Video Lv2",
+          "task_type": "Konten Pendukung Video"
+        },
+        {
+          "source": "Konten Pendukung Video Lv3",
+          "task_type": "Konten Pendukung Video"
+        },
+        {
+          "source": "QC Konten Pendukung - Video",
+          "task_type": "QC Konten Pendukung - Video"
+        },
+        {
+          "source": "Aset 2D Lv1",
+          "task_type": "Aset 2D"
+        },
+        {
+          "source": "Aset 2D Lv2",
+          "task_type": "Aset 2D"
+        },
+        {
+          "source": "Aset 2D Lv3",
+          "task_type": "Aset 2D"
+        },
+        {
+          "source": "Video Hanjar Lv1",
+          "task_type": "Video Hanjar"
+        },
+        {
+          "source": "Video Hanjar Lv2",
+          "task_type": "Video Hanjar"
+        },
+        {
+          "source": "Video Hanjar Lv3",
+          "task_type": "Video Hanjar"
+        },
+        {
+          "source": "Video Hanjar Lv4",
+          "task_type": "Video Hanjar"
+        },
+        {
+          "source": "Video Hanjar Lv5",
+          "task_type": "Video Hanjar"
+        },
+        {
+          "source": "Video Hanjar Lv6",
+          "task_type": "Video Hanjar"
+        }
+      ]
+    },
+    {
+      "deliverable": "Skenario Gameplay",
+      "task_types": [
+        "Pencarian, Pengumpulan, dan Analisis Data (CF) - Gameplay",
+        "Pencarian, Pengumpulan, dan Analisis Data (Procedural) - Gameplay",
+        "Pencarian, Pengumpulan, dan Analisis Data (General) - Gameplay",
+        "Materi Deskriptif atau Naratif Gameplay",
+        "QC Materi Deskriptif atau Naratif Gameplay",
+        "Visual Brief",
+        "QC Visual Brief",
+        "Visual Planning Board Gameplay",
+        "QC Visual Planning Board - Gameplay",
+        "Storyboard Gameplay",
+        "QC Storyboard Gameplay",
+        "Concept Art Gameplay",
+        "QC Concept Art - Gameplay",
+        "Konten Pendukung Gameplay",
+        "QC Konten Pendukung - Gameplay",
+        "Video Prosedural"
+      ],
+      "source_mappings": [
+        {
+          "source": "Pencarian, Pengumpulan, dan Analisis Data (CF) - Gameplay",
+          "task_type": "Pencarian, Pengumpulan, dan Analisis Data (CF) - Gameplay"
+        },
+        {
+          "source": "Pencarian, Pengumpulan, dan Analisis Data (Procedural) - Gameplay",
+          "task_type": "Pencarian, Pengumpulan, dan Analisis Data (Procedural) - Gameplay"
+        },
+        {
+          "source": "Pencarian, Pengumpulan, dan Analisis Data (General) - Gameplay",
+          "task_type": "Pencarian, Pengumpulan, dan Analisis Data (General) - Gameplay"
+        },
+        {
+          "source": "Materi Deskriptif atau Naratif Gameplay Lv1",
+          "task_type": "Materi Deskriptif atau Naratif Gameplay"
+        },
+        {
+          "source": "Materi Deskriptif atau Naratif Gameplay Lv2",
+          "task_type": "Materi Deskriptif atau Naratif Gameplay"
+        },
+        {
+          "source": "Materi Deskriptif atau Naratif Gameplay Lv3",
+          "task_type": "Materi Deskriptif atau Naratif Gameplay"
+        },
+        {
+          "source": "Materi Deskriptif atau Naratif Gameplay Lv4",
+          "task_type": "Materi Deskriptif atau Naratif Gameplay"
+        },
+        {
+          "source": "QC Materi Deskriptif atau Naratif - Gameplay",
+          "task_type": "QC Materi Deskriptif atau Naratif Gameplay"
+        },
+        {
+          "source": "Visual Brief Lv1",
+          "task_type": "Visual Brief"
+        },
+        {
+          "source": "Visual Brief Lv2",
+          "task_type": "Visual Brief"
+        },
+        {
+          "source": "Visual Brief Lv3",
+          "task_type": "Visual Brief"
+        },
+        {
+          "source": "QC Visual Brief",
+          "task_type": "QC Visual Brief"
+        },
+        {
+          "source": "Visual Planning Board Gameplay Lv1",
+          "task_type": "Visual Planning Board Gameplay"
+        },
+        {
+          "source": "Visual Planning Board Gameplay Lv2",
+          "task_type": "Visual Planning Board Gameplay"
+        },
+        {
+          "source": "Visual Planning Board Gameplay Lv3",
+          "task_type": "Visual Planning Board Gameplay"
+        },
+        {
+          "source": "QC Visual Planning Board - Gameplay",
+          "task_type": "QC Visual Planning Board - Gameplay"
+        },
+        {
+          "source": "Storyboard Gameplay Lv1",
+          "task_type": "Storyboard Gameplay"
+        },
+        {
+          "source": "Storyboard Gameplay Lv2",
+          "task_type": "Storyboard Gameplay"
+        },
+        {
+          "source": "Storyboard Gameplay Lv3",
+          "task_type": "Storyboard Gameplay"
+        },
+        {
+          "source": "QC Storyboard Gameplay",
+          "task_type": "QC Storyboard Gameplay"
+        },
+        {
+          "source": "Concept Art Gameplay Lv1",
+          "task_type": "Concept Art Gameplay"
+        },
+        {
+          "source": "Concept Art Gameplay Lv2",
+          "task_type": "Concept Art Gameplay"
+        },
+        {
+          "source": "Concept Art Gameplay Lv3",
+          "task_type": "Concept Art Gameplay"
+        },
+        {
+          "source": "QC Concept Art - Gameplay",
+          "task_type": "QC Concept Art - Gameplay"
+        },
+        {
+          "source": "Konten Pendukung Gameplay Lv1",
+          "task_type": "Konten Pendukung Gameplay"
+        },
+        {
+          "source": "Konten Pendukung Gameplay Lv2",
+          "task_type": "Konten Pendukung Gameplay"
+        },
+        {
+          "source": "Konten Pendukung Gameplay Lv3",
+          "task_type": "Konten Pendukung Gameplay"
+        },
+        {
+          "source": "QC Konten Pendukung - Gameplay",
+          "task_type": "QC Konten Pendukung - Gameplay"
+        },
+        {
+          "source": "Video Prosedural Lv1",
+          "task_type": "Video Prosedural"
+        },
+        {
+          "source": "Video Prosedural Lv2",
+          "task_type": "Video Prosedural"
+        },
+        {
+          "source": "Video Prosedural Lv3",
+          "task_type": "Video Prosedural"
+        },
+        {
+          "source": "Video Prosedural Lv4",
+          "task_type": "Video Prosedural"
+        },
+        {
+          "source": "Video Prosedural Lv5",
+          "task_type": "Video Prosedural"
+        },
+        {
+          "source": "Video Prosedural Lv6",
+          "task_type": "Video Prosedural"
+        }
+      ]
+    },
+    {
+      "deliverable": "Social Media",
+      "task_types": [
+        "Materi Konten Copywriting",
+        "QC Materi Konten Copywriting",
+        "Media Sosial"
+      ],
+      "source_mappings": [
+        {
+          "source": "Materi Konten Copywriting Lv1",
+          "task_type": "Materi Konten Copywriting"
+        },
+        {
+          "source": "Materi Konten Copywriting Lv2",
+          "task_type": "Materi Konten Copywriting"
+        },
+        {
+          "source": "Materi Konten Copywriting Lv3",
+          "task_type": "Materi Konten Copywriting"
+        },
+        {
+          "source": "QC Materi Konten Copywriting",
+          "task_type": "QC Materi Konten Copywriting"
+        },
+        {
+          "source": "Media Sosial Lv1",
+          "task_type": "Media Sosial"
+        },
+        {
+          "source": "Media Sosial Lv2",
+          "task_type": "Media Sosial"
+        },
+        {
+          "source": "Media Sosial Lv3",
+          "task_type": "Media Sosial"
+        }
+      ]
+    },
+    {
+      "deliverable": "2D - Task Lainnya",
+      "task_types": [
+        "Power Point",
+        "Stamp 3D",
+        "Logo",
+        "Foto",
+        "Advertisement",
+        "Sertifikat",
+        "Tanda Pengenal",
+        "Merchandise",
+        "Banner",
+        "Buku"
+      ],
+      "source_mappings": [
+        {
+          "source": "Power Point Lv1",
+          "task_type": "Power Point"
+        },
+        {
+          "source": "Power Point Lv2",
+          "task_type": "Power Point"
+        },
+        {
+          "source": "Power Point Lv3",
+          "task_type": "Power Point"
+        },
+        {
+          "source": "Stamp 3D Lv1",
+          "task_type": "Stamp 3D"
+        },
+        {
+          "source": "Stamp 3D Lv2",
+          "task_type": "Stamp 3D"
+        },
+        {
+          "source": "Stamp 3D Lv3",
+          "task_type": "Stamp 3D"
+        },
+        {
+          "source": "Logo Lv1",
+          "task_type": "Logo"
+        },
+        {
+          "source": "Logo Lv2",
+          "task_type": "Logo"
+        },
+        {
+          "source": "Logo Lv3",
+          "task_type": "Logo"
+        },
+        {
+          "source": "Foto Lv1",
+          "task_type": "Foto"
+        },
+        {
+          "source": "Foto Lv2",
+          "task_type": "Foto"
+        },
+        {
+          "source": "Foto Lv3",
+          "task_type": "Foto"
+        },
+        {
+          "source": "Advertisement Lv1",
+          "task_type": "Advertisement"
+        },
+        {
+          "source": "Advertisement Lv2",
+          "task_type": "Advertisement"
+        },
+        {
+          "source": "Advertisement Lv3",
+          "task_type": "Advertisement"
+        },
+        {
+          "source": "Sertifikat Lv1",
+          "task_type": "Sertifikat"
+        },
+        {
+          "source": "Sertifikat Lv2",
+          "task_type": "Sertifikat"
+        },
+        {
+          "source": "Sertifikat Lv3",
+          "task_type": "Sertifikat"
+        },
+        {
+          "source": "Tanda Pengenal Lv1",
+          "task_type": "Tanda Pengenal"
+        },
+        {
+          "source": "Tanda Pengenal Lv2",
+          "task_type": "Tanda Pengenal"
+        },
+        {
+          "source": "Tanda Pengenal Lv3",
+          "task_type": "Tanda Pengenal"
+        },
+        {
+          "source": "Merchandise Lv1",
+          "task_type": "Merchandise"
+        },
+        {
+          "source": "Merchandise Lv2",
+          "task_type": "Merchandise"
+        },
+        {
+          "source": "Merchandise Lv3",
+          "task_type": "Merchandise"
+        },
+        {
+          "source": "Banner Lv1",
+          "task_type": "Banner"
+        },
+        {
+          "source": "Banner Lv2",
+          "task_type": "Banner"
+        },
+        {
+          "source": "Banner Lv3",
+          "task_type": "Banner"
+        },
+        {
+          "source": "Buku Lv1",
+          "task_type": "Buku"
+        },
+        {
+          "source": "Buku Lv2",
+          "task_type": "Buku"
+        },
+        {
+          "source": "Buku Lv3",
+          "task_type": "Buku"
+        }
+      ]
+    },
+    {
+      "deliverable": "VA - Template/Bumper",
+      "task_types": [
+        "Video Content"
+      ],
+      "source_mappings": [
+        {
+          "source": "Video Content Lv1",
+          "task_type": "Video Content"
+        },
+        {
+          "source": "Video Content Lv2",
+          "task_type": "Video Content"
+        },
+        {
+          "source": "Video Content Lv3",
+          "task_type": "Video Content"
+        },
+        {
+          "source": "Video Content Lv4",
+          "task_type": "Video Content"
+        },
+        {
+          "source": "Video Content Lv5",
+          "task_type": "Video Content"
+        },
+        {
+          "source": "Video Content Lv6",
+          "task_type": "Video Content"
+        }
+      ]
+    },
+    {
+      "deliverable": "UI",
+      "task_types": [
+        "UI Design",
+        "UI Figma Configuration"
+      ],
+      "source_mappings": [
+        {
+          "source": "UI Design Lv1",
+          "task_type": "UI Design"
+        },
+        {
+          "source": "UI Design Lv2",
+          "task_type": "UI Design"
+        },
+        {
+          "source": "UI Design Lv3",
+          "task_type": "UI Design"
+        },
+        {
+          "source": "UI Figma Configuration Lv1",
+          "task_type": "UI Figma Configuration"
+        },
+        {
+          "source": "UI Figma Configuration Lv2",
+          "task_type": "UI Figma Configuration"
+        },
+        {
+          "source": "UI Figma Configuration Lv3",
+          "task_type": "UI Figma Configuration"
+        }
+      ]
+    }
+  ]
+}

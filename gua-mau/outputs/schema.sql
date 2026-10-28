@@ -1,6 +1,12 @@
 -- Ruang Proyek: fresh SQLite schema. Existing databases are migrated by server.js.
 PRAGMA foreign_keys = ON;
 
+CREATE TABLE app_settings (
+  setting_key TEXT PRIMARY KEY,
+  setting_value TEXT NOT NULL
+);
+INSERT INTO app_settings(setting_key,setting_value) VALUES ('report_letter_sequence','12');
+
 CREATE TABLE users (
   user_id TEXT PRIMARY KEY,
   username TEXT NOT NULL UNIQUE COLLATE NOCASE,

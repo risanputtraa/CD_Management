@@ -76,6 +76,7 @@ CREATE TABLE folders (
   project_id TEXT NOT NULL REFERENCES projects(project_id) ON DELETE CASCADE,
   parent_folder_id TEXT,
   folder_name TEXT NOT NULL,
+  is_active INTEGER NOT NULL DEFAULT 1 CHECK (is_active IN (0,1)),
   UNIQUE (project_id,folder_id),
   FOREIGN KEY (project_id,parent_folder_id) REFERENCES folders(project_id,folder_id) ON DELETE CASCADE
 );

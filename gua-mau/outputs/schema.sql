@@ -189,3 +189,6 @@ CREATE UNIQUE INDEX one_running_timer_per_task ON timer_sessions(task_id) WHERE 
 CREATE INDEX task_project_status_idx ON tasks(project_id,status);
 CREATE INDEX task_personnel_status_idx ON tasks(assigned_personnel_id,status);
 CREATE INDEX folder_project_parent_idx ON folders(project_id,parent_folder_id);
+
+CREATE TABLE IF NOT EXISTS task_reference_items(reference_id TEXT PRIMARY KEY,task_kind TEXT NOT NULL CHECK(task_kind IN ('project','general')),task_id TEXT NOT NULL,author_user_id TEXT REFERENCES users(user_id) ON DELETE SET NULL,author_name TEXT NOT NULL,file_name TEXT NOT NULL,mime_type TEXT NOT NULL,image_data TEXT NOT NULL,x REAL NOT NULL DEFAULT 36,y REAL NOT NULL DEFAULT 36,width REAL NOT NULL DEFAULT 300,height REAL NOT NULL DEFAULT 260,note_text TEXT NOT NULL DEFAULT '',created_at TEXT NOT NULL,updated_at TEXT NOT NULL);
+CREATE INDEX IF NOT EXISTS task_reference_target_idx ON task_reference_items(task_kind,task_id,created_at);

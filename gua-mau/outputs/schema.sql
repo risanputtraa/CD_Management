@@ -160,6 +160,7 @@ CREATE TABLE tasks (
   planned_quantity INTEGER NOT NULL DEFAULT 1 CHECK (planned_quantity >= 0),
   created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  pending_since TEXT,
   UNIQUE (project_id,task_id),
   FOREIGN KEY (project_id,folder_id) REFERENCES folders(project_id,folder_id) ON DELETE CASCADE
 );
@@ -192,3 +193,9 @@ CREATE INDEX folder_project_parent_idx ON folders(project_id,parent_folder_id);
 
 CREATE TABLE IF NOT EXISTS task_reference_items(reference_id TEXT PRIMARY KEY,task_kind TEXT NOT NULL CHECK(task_kind IN ('project','general')),task_id TEXT NOT NULL,author_user_id TEXT REFERENCES users(user_id) ON DELETE SET NULL,author_name TEXT NOT NULL,file_name TEXT NOT NULL,mime_type TEXT NOT NULL,image_data TEXT NOT NULL,x REAL NOT NULL DEFAULT 36,y REAL NOT NULL DEFAULT 36,width REAL NOT NULL DEFAULT 300,height REAL NOT NULL DEFAULT 260,note_text TEXT NOT NULL DEFAULT '',created_at TEXT NOT NULL,updated_at TEXT NOT NULL);
 CREATE INDEX IF NOT EXISTS task_reference_target_idx ON task_reference_items(task_kind,task_id,created_at);
+
+CREATE TABLE IF NOT EXISTS project_meeting_minutes(document_id TEXT PRIMARY KEY,project_id TEXT NOT NULL REFERENCES projects(project_id) ON DELETE CASCADE,title TEXT NOT NULL,meeting_date TEXT NOT NULL,summary TEXT NOT NULL DEFAULT '',file_name TEXT NOT NULL,pdf_data BLOB NOT NULL,allowed_user_ids TEXT NOT NULL DEFAULT '[]',created_by TEXT REFERENCES users(user_id) ON DELETE SET NULL,created_at TEXT NOT NULL,updated_at TEXT NOT NULL); CREATE INDEX IF NOT EXISTS project_mom_date ON project_meeting_minutes(project_id,meeting_date DESC);
+
+CREATE TABLE IF NOT EXISTS project_mom_notes(note_id TEXT PRIMARY KEY,document_id TEXT NOT NULL REFERENCES project_meeting_minutes(document_id) ON DELETE CASCADE,author_user_id TEXT REFERENCES users(user_id) ON DELETE SET NULL,author_name TEXT NOT NULL,body TEXT NOT NULL DEFAULT '',attachments TEXT NOT NULL DEFAULT '[]',created_at TEXT NOT NULL); CREATE INDEX IF NOT EXISTS project_mom_notes_doc ON project_mom_notes(document_id,created_at);
+
+CREATE TABLE IF NOT EXISTS project_mom_mentions(notification_id TEXT PRIMARY KEY,user_id TEXT NOT NULL REFERENCES users(user_id) ON DELETE CASCADE,document_id TEXT NOT NULL REFERENCES project_meeting_minutes(document_id) ON DELETE CASCADE,note_id TEXT NOT NULL REFERENCES project_mom_notes(note_id) ON DELETE CASCADE,actor_name TEXT NOT NULL,created_at TEXT NOT NULL); CREATE INDEX IF NOT EXISTS project_mom_mentions_user ON project_mom_mentions(user_id,created_at);

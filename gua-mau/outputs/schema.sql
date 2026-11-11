@@ -64,6 +64,7 @@ CREATE TABLE task_type_capacities (
 CREATE TABLE projects (
   project_id TEXT PRIMARY KEY,
   project_name TEXT NOT NULL,
+  stage TEXT NOT NULL DEFAULT 'Execution' CHECK(stage IN ('Planning','Execution')),
   product_type_id TEXT REFERENCES product_types(product_type_id) ON DELETE RESTRICT,
   start_date TEXT,
   deadline TEXT,

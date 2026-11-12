@@ -1,0 +1,66 @@
+const test=require('node:test');
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const os=require('node:os');
+const path=require('node:path');
+const crypto=require('node:crypto');
+const {DatabaseSync}=require('node:sqlite');
+const {buildXlsx,readXlsxSheet}=require('../data-tools');
+const makeService=require('../project-structure-import');
+
+function fixture(){
+ const db=new DatabaseSync(':memory:');db.exec(`PRAGMA foreign_keys=ON;
+ CREATE TABLE departments(department_id TEXT PRIMARY KEY,department_name TEXT);
+ CREATE TABLE users(user_id TEXT PRIMARY KEY,username TEXT,account_status TEXT DEFAULT 'active');
+ CREATE TABLE personnel(personnel_id TEXT PRIMARY KEY,personnel_name TEXT,user_id TEXT REFERENCES users(user_id),position TEXT);
+ CREATE TABLE projects(project_id TEXT PRIMARY KEY,project_name TEXT);
+ CREATE TABLE folders(folder_id TEXT PRIMARY KEY,project_id TEXT REFERENCES projects(project_id),parent_folder_id TEXT REFERENCES folders(folder_id),folder_name TEXT,is_active INTEGER DEFAULT 1);
+ CREATE TABLE task_types(task_type_id TEXT PRIMARY KEY,task_type_name TEXT,is_active INTEGER DEFAULT 1,department_id TEXT REFERENCES departments(department_id));
+ CREATE TABLE task_type_capacities(task_type_id TEXT,difficulty_level INTEGER,tasks_per_person_per_day REAL);
+ CREATE TABLE task_type_weights(task_type_id TEXT,difficulty_level INTEGER,weight REAL);
+ CREATE TABLE tasks(task_id TEXT PRIMARY KEY,project_id TEXT REFERENCES projects(project_id),folder_id TEXT REFERENCES folders(folder_id),task_name TEXT,task_type_id TEXT REFERENCES task_types(task_type_id),difficulty_level INTEGER,assigned_personnel_id TEXT REFERENCES personnel(personnel_id),due_date TEXT DEFAULT '',note TEXT DEFAULT '',status TEXT,owner TEXT,created_by_user_id TEXT,planned_quantity INTEGER DEFAULT 1,started_at TEXT,completed_at TEXT,completed_weight REAL,completed_by_personnel_id TEXT,parent_task_id TEXT,qc_round_number INTEGER,updated_at TEXT,evidence_url TEXT);
+ CREATE TABLE general_work(work_id TEXT PRIMARY KEY,personnel_id TEXT,status TEXT);
+ CREATE TABLE task_revision_requests(task_id TEXT,revision_task_id TEXT,status TEXT);
+ CREATE TABLE timer_sessions(session_id TEXT,task_id TEXT REFERENCES tasks(task_id),personnel_id TEXT,started_at TEXT,ended_at TEXT,duration_seconds INTEGER DEFAULT 0);
+ CREATE TABLE task_notes(note_id TEXT PRIMARY KEY,task_id TEXT REFERENCES tasks(task_id),body TEXT);
+ CREATE TABLE task_reference_items(reference_id TEXT,task_kind TEXT,task_id TEXT,image_data TEXT);
+ INSERT INTO departments VALUES('d','Concept Art');
+ INSERT INTO users(user_id,username) VALUES('u','alice'),('u2','bob');
+ INSERT INTO personnel VALUES('person','Alice','u','HOD'),('person2','Bob','u2','Leader');
+ INSERT INTO projects VALUES('project','Project A'),('other','Project B');
+ INSERT INTO folders VALUES('folder','project',NULL,'Content / Literal',1),('empty','project','folder','Empty Folder',0),('other-folder','other',NULL,'Other',1);
+ INSERT INTO task_types VALUES('type','Storyboard',1,'d');
+ INSERT INTO task_type_capacities VALUES('type',1,3.5),('type',2,1.75);
+ INSERT INTO tasks(task_id,project_id,folder_id,task_name,task_type_id,difficulty_level,status,owner,note) VALUES('open','project','folder','Open Task','type',1,'Open','','Keep This Note'),('other-task','other','other-folder','Other Task','type',1,'Open','','');
+ INSERT INTO tasks(task_id,project_id,folder_id,task_name,task_type_id,difficulty_level,status,assigned_personnel_id,started_at,completed_at,completed_by_personnel_id,completed_weight,evidence_url,note) VALUES('done','project','folder','Done Task','type',1,'Done','person','2026-11-01T02:00:00.123Z','2026-11-01T03:00:00.456Z','person',2,'https://example.com/evidence','  Notes with whitespace  '),('ongoing','project','folder','Running Task','type',1,'On Going','person2','2026-11-01T04:00:00.567Z',NULL,NULL,NULL,NULL,'');
+ INSERT INTO timer_sessions VALUES('timer','ongoing','person2','2026-11-12T02:00:00.789Z',NULL,0);
+ INSERT INTO task_notes VALUES('note','done','Evidence Image');
+ INSERT INTO task_reference_items VALUES('reference','project','done','Reference Image');`);
+ const directory=fs.mkdtempSync(path.join(os.tmpdir(),'project-structure-test-'));let backupCount=0,failBackup=false,failAction=false;
+ const dateValue=value=>/^\d{4}-\d{2}-\d{2}$/.test(String(value))?String(value):'';
+ const dateTime=value=>{let text=String(value);if(!/[Zz]$|[+-]\d\d:\d\d$/.test(text))text=text.replace(' ','T')+'+07:00';const time=new Date(text);return Number.isNaN(time.getTime())?'':time.toISOString();};
+ const computedWeight=task=>task.difficulty_level?7/db.prepare('SELECT tasks_per_person_per_day rate FROM task_type_capacities WHERE task_type_id=? AND difficulty_level=?').get(task.task_type_id,task.difficulty_level).rate:null;
+ const stopTimer=id=>db.prepare("UPDATE timer_sessions SET ended_at='2026-11-12T03:00:00Z' WHERE task_id=? AND ended_at IS NULL").run(id);
+ const service=makeService({db,buildXlsx,readXlsxSheet,uuid:crypto.randomUUID,importDateValue:dateValue,importDateTimeValue:dateTime,computedWeight,qcRoundWeight:value=>value,stopTimer,recordTaskActivity:()=>{},createSafetyBackup:()=>{if(failBackup)throw Error('Backup failed');backupCount++;const name='backup-'+backupCount+'.sqlite';db.exec("VACUUM INTO '"+path.join(directory,name).replace(/'/g,"''")+"'");return {name};},applyAction:(action)=>{if(failAction)throw Error('Action failed');const task=db.prepare('SELECT * FROM tasks WHERE task_id=?').get(action.task_id);if(action.status==='Done'&&!action.evidence_url)throw Error('Evidence required');if(action.status!=='On Going')stopTimer(task.task_id);else db.prepare('INSERT INTO timer_sessions VALUES(?,?,?,?,NULL,0)').run(crypto.randomUUID(),task.task_id,task.assigned_personnel_id,new Date().toISOString());db.prepare('UPDATE tasks SET status=?,evidence_url=? WHERE task_id=?').run(action.status,action.evidence_url||task.evidence_url||null,task.task_id);}});
+ const user={user_id:'u',access_role:'admin',personnel_id:'person'};
+ function workbook(){return service.parse(service.template('project',user));}
+ function inspect(input){return service.inspect('project',input,user);}
+ function save(input){const preview=inspect(input);assert.equal(preview.invalid_count,0,JSON.stringify(preview.folders.concat(preview.tasks).filter(row=>!row.valid)));return service.commit('project',{...input,expected_version:preview.version},user);}
+ function cleanup(){db.close();for(const file of fs.readdirSync(directory))fs.unlinkSync(path.join(directory,file));fs.rmdirSync(directory);}
+ return {db,service,user,workbook,inspect,save,cleanup,backups:()=>backupCount,failBackup:()=>failBackup=true,failAction:()=>failAction=true};
+}
+
+test('export includes empty folders and IDs; unchanged reimport is a no-op',()=>{const f=fixture();try{const input=f.workbook(),preview=f.inspect(input);assert.equal(input.folders.length,2);assert.equal(input.tasks.length,3);assert.equal(preview.invalid_count,0);assert.equal(preview.counts.unchanged,5);const timer=f.db.prepare('SELECT * FROM timer_sessions').get();f.save(input);assert.equal(f.backups(),0);assert.deepEqual(f.db.prepare('SELECT * FROM timer_sessions').get(),timer);}finally{f.cleanup();}});
+
+test('updates by ID, creates nested folders and tasks, preserves omitted rows and references',()=>{const f=fixture();try{const input=f.workbook();input.folders=input.folders.filter(row=>row.input.folder_id==='folder');input.folders[0].input.folder_name='Renamed Folder';input.folders.push({input:{folder_key:'NEW',folder_name:'New Folder',parent_ref:'folder',is_active:'Yes'}},{input:{folder_key:'CHILD',folder_name:'Child / Literal',parent_ref:'NEW',is_active:'Yes'}});input.tasks=input.tasks.filter(row=>row.input.task_id==='done');input.tasks[0].input.task_name='Updated Task';input.tasks[0].input.level='2';input.tasks.push({input:{folder_ref:'CHILD',task_name:'New Task',task_type:'Storyboard',level:'1',pic:'alice',status:'Pending',quantity:'0'}});const result=f.save(input);assert.equal(result.counts.folders_add,2);assert.equal(f.db.prepare("SELECT task_name FROM tasks WHERE task_id='done'").get().task_name,'Updated Task');assert.equal(f.db.prepare("SELECT completed_weight FROM tasks WHERE task_id='done'").get().completed_weight,4);assert.equal(f.db.prepare("SELECT COUNT(*) n FROM folders WHERE folder_id='empty'").get().n,1);assert.equal(f.db.prepare("SELECT COUNT(*) n FROM tasks WHERE task_id='open'").get().n,1);assert.equal(f.db.prepare('SELECT COUNT(*) n FROM task_notes').get().n,1);assert.equal(f.db.prepare('SELECT COUNT(*) n FROM task_reference_items').get().n,1);const created=f.db.prepare("SELECT * FROM tasks WHERE task_name='New Task'").get();assert.equal(created.planned_quantity,0);assert.equal(f.db.prepare('SELECT folder_name FROM folders WHERE folder_id=?').get(created.folder_id).folder_name,'Child / Literal');assert.equal(f.inspect(f.workbook()).counts.tasks_add,0);assert.equal(f.inspect(f.workbook()).counts.tasks_update,0);assert.equal(f.db.prepare('PRAGMA foreign_key_check').all().length,0);}finally{f.cleanup();}});
+
+test('rejects cross-project IDs, cycles, duplicate IDs, invalid PIC and fractional project quantity',()=>{const f=fixture();try{const input=f.workbook();input.folders[0].input.parent_ref=input.folders[0].input.folder_id;input.folders.push({input:{folder_id:'other-folder',folder_name:'Foreign'}});input.tasks[0].input.task_id='other-task';input.tasks[1].input.pic='Missing PIC';input.tasks[2].input.quantity='0.5';input.tasks.push(input.tasks[1]);const preview=f.inspect(input);assert(preview.invalid_count>=5);assert(preview.folders.some(row=>row.errors.some(error=>error.includes('cycle'))));assert(preview.tasks.some(row=>row.errors.some(error=>error.includes('more than once'))));assert.throws(()=>f.service.commit('project',{...input,expected_version:preview.version},f.user),/invalid/);assert.equal(f.backups(),0);assert.throws(()=>f.service.inspect('project',{...input,project_id:'other'},f.user),/another project/);assert.throws(()=>f.service.allowed({access_role:'member',personnel_id:'person2'}),/Admins/);assert.doesNotThrow(()=>f.service.allowed({access_role:'member',personnel_id:'person'}));}finally{f.cleanup();}});
+
+test('stale preview, backup failure, and mid-import failures cannot partially change project data',()=>{for(const failure of ['stale','backup','action']){const f=fixture();try{const input=f.workbook();input.folders[0].input.folder_name='Changed';input.tasks[0].input.status='Pending';input.tasks[0].input.pic='alice';const preview=f.inspect(input);assert.equal(preview.invalid_count,0);if(failure==='stale')f.db.prepare("UPDATE folders SET folder_name='Concurrent' WHERE folder_id='empty'").run();if(failure==='backup')f.failBackup();if(failure==='action')f.failAction();assert.throws(()=>f.service.commit('project',{...input,expected_version:preview.version},f.user),failure==='stale'?/changed/:failure==='backup'?/Backup failed/:/Action failed/);assert.equal(f.db.prepare("SELECT folder_name FROM folders WHERE folder_id='folder'").get().folder_name,'Content / Literal');assert.equal(f.db.prepare("SELECT status FROM tasks WHERE task_id='done'").get().status,'Done');}finally{f.cleanup();}}});
+
+test('editing an On Going task preserves its active timer and omitted project data',()=>{const f=fixture();try{const input=f.workbook(),timer=f.db.prepare('SELECT * FROM timer_sessions').get();input.tasks=input.tasks.filter(row=>row.input.task_id==='ongoing');input.folders=[];input.tasks[0].input.task_name='Renamed Running Task';f.save(input);assert.deepEqual(f.db.prepare('SELECT * FROM timer_sessions').get(),timer);assert.equal(f.db.prepare("SELECT status FROM tasks WHERE task_id='ongoing'").get().status,'On Going');assert.equal(f.db.prepare("SELECT COUNT(*) n FROM tasks WHERE project_id='other'").get().n,1);}finally{f.cleanup();}});
+
+
+test('timestamp formatting and existing legacy date order do not turn unchanged exports into updates',()=>{const f=fixture();try{f.db.prepare("UPDATE tasks SET started_at='2026-11-01T02:00:00Z',completed_at='2026-10-31T03:00:00Z' WHERE task_id='done'").run();const input=f.workbook();assert.equal(f.inspect(input).invalid_count,0);assert.equal(f.inspect(input).counts.tasks_update,0);input.tasks.find(row=>row.input.task_id==='done').input.finished_on='2026-10-30 10:00:00';assert.ok(f.inspect(input).invalid_count);}finally{f.cleanup();}});
+
+test('new task status, evidence, and imported start time are saved together',()=>{const f=fixture();try{const input={project_id:'project',folders:[],tasks:[{input:{folder_ref:'folder',task_name:'New Done',task_type:'Storyboard',level:'2',pic:'alice',status:'Done',start_on:'2026-11-01 09:00:00',finished_on:'2026-11-01 11:00:00',evidence_url:'https://example.com/done'}},{input:{folder_ref:'folder',task_name:'New Pending',task_type:'Storyboard',pic:'alice',status:'Pending',evidence_url:'https://example.com/draft'}}]};f.save(input);const done=f.db.prepare("SELECT * FROM tasks WHERE task_name='New Done'").get();assert.equal(done.status,'Done');assert.equal(done.completed_weight,4);assert.equal(done.completed_at,'2026-11-01T04:00:00.000Z');assert.equal(f.db.prepare("SELECT evidence_url FROM tasks WHERE task_name='New Pending'").get().evidence_url,'https://example.com/draft');}finally{f.cleanup();}});

@@ -200,3 +200,6 @@ CREATE TABLE IF NOT EXISTS project_meeting_minutes(document_id TEXT PRIMARY KEY,
 CREATE TABLE IF NOT EXISTS project_mom_notes(note_id TEXT PRIMARY KEY,document_id TEXT NOT NULL REFERENCES project_meeting_minutes(document_id) ON DELETE CASCADE,author_user_id TEXT REFERENCES users(user_id) ON DELETE SET NULL,author_name TEXT NOT NULL,body TEXT NOT NULL DEFAULT '',attachments TEXT NOT NULL DEFAULT '[]',created_at TEXT NOT NULL); CREATE INDEX IF NOT EXISTS project_mom_notes_doc ON project_mom_notes(document_id,created_at);
 
 CREATE TABLE IF NOT EXISTS project_mom_mentions(notification_id TEXT PRIMARY KEY,user_id TEXT NOT NULL REFERENCES users(user_id) ON DELETE CASCADE,document_id TEXT NOT NULL REFERENCES project_meeting_minutes(document_id) ON DELETE CASCADE,note_id TEXT NOT NULL REFERENCES project_mom_notes(note_id) ON DELETE CASCADE,actor_name TEXT NOT NULL,created_at TEXT NOT NULL); CREATE INDEX IF NOT EXISTS project_mom_mentions_user ON project_mom_mentions(user_id,created_at);
+
+-- Speed up accumulated timer calculations, including completed sessions.
+CREATE INDEX IF NOT EXISTS timer_sessions_task_idx ON timer_sessions(task_id);

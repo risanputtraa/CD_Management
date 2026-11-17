@@ -12,10 +12,8 @@ const { buildXlsx, readXlsxFirstSheet, readXlsxSheet, listBackups, createBackup,
 const { exportReport } = require('./pdf-report');
 const deliverableTaskCatalogSource = require('./deliverable-task-catalog.json');
 
-// Stable build identity: same application files produce the same version on each host.
-const applicationFiles=fs.readdirSync(__dirname).filter(name=>/\.(?:js|html|css|sql|json)$/.test(name)&&!name.startsWith('package-lock')).sort();
-const applicationDigest=crypto.createHash('sha256');for(const name of applicationFiles){applicationDigest.update(name+'\0');applicationDigest.update(fs.readFileSync(path.join(__dirname,name)))}
-const applicationVersion={version:'2026.11.16',build:applicationDigest.digest('hex').slice(0,10)};
+// Release identity travels with the application; increment build for each completed change.
+const applicationVersion = require('./app-version.json');
 const databasePath=path.join(__dirname,'ruang-proyek.sqlite');
 const backupDirectory=path.join(__dirname,'backups');
 const db = new DatabaseSync(databasePath);

@@ -9,7 +9,8 @@ let teamWeightPage=1,teamWeightSort='completedWeight',teamWeightDirection='desc'
 
 function teamTaskViewSwitcher(){return ''}
 
-function teamWeightSource(){
+let teamWeightSourceCache=null;function teamWeightSource(){const refs=[state.tasks,state.generalWorks,state.personnel,state.taskTypes,state.projects,state.folders,me?.user_id,me?.personnel_id,currentPersonnel()?.position,admin()],hit=teamWeightSourceCache;if(hit&&refs.every((value,i)=>value===hit.refs[i]))return hit.value;const value=computeTeamWeightSource();teamWeightSourceCache={refs,value};return value}
+function computeTeamWeightSource(){
  const position=currentPersonnel()?.position,ids=admin()||['HOD','Vice HOD'].includes(position)?new Set(state.personnel.map(p=>p.personnel_id)):position==='Leader'?subordinatePersonnelIds():new Set(),people=state.personnel.filter(person=>ids.has(person.personnel_id)),types=new Map(state.taskTypes.map(type=>[type.task_type_id,type])),projects=new Map(state.projects.map(project=>[project.project_id,project])),folders=new Map(state.folders.map(folder=>[folder.folder_id,folder]));
  const finite=value=>value==null||!Number.isFinite(Number(value))?null:Number(value),entries=[];
  for(const task of state.tasks){

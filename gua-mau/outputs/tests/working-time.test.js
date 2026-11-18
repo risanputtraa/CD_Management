@@ -1,0 +1,6 @@
+const test=require('node:test'),assert=require('node:assert/strict'),{workingSecondsBetween}=require('../working-time');
+const time=(day,hour)=>day+'T'+hour+':00+07:00';
+test('only office windows count, excluding lunch and nonworking hours',()=>{assert.equal(workingSecondsBetween(time('2026-11-16','10:00'),time('2026-11-16','15:00')),4*3600);assert.equal(workingSecondsBetween(time('2026-11-16','08:00'),time('2026-11-16','19:00')),7*3600);assert.equal(workingSecondsBetween(time('2026-11-16','12:00'),time('2026-11-16','13:00')),0)});
+test('cross-day ranges exclude nights, weekends and holidays',()=>{assert.equal(workingSecondsBetween(time('2026-11-16','16:00'),time('2026-11-17','10:00')),2*3600);assert.equal(workingSecondsBetween(time('2026-11-20','16:00'),time('2026-11-23','10:00')),2*3600);assert.equal(workingSecondsBetween(time('2026-11-16','16:00'),time('2026-11-18','10:00'),[{holiday_date:'2026-11-17'}]),2*3600)});
+test('UTC timestamps are interpreted as Jakarta office hours',()=>{assert.equal(workingSecondsBetween('2026-11-16T02:00:00Z','2026-11-16T10:00:00Z'),7*3600)});
+test('missing endpoints return zero and reversed dates are rejected',()=>{assert.equal(workingSecondsBetween(null,new Date().toISOString()),0);assert.throws(()=>workingSecondsBetween(time('2026-11-17','10:00'),time('2026-11-16','10:00')),/Finish time/)});

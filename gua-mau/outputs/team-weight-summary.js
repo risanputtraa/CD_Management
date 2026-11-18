@@ -1,3 +1,4 @@
+function canViewWorkPerformance(){return admin()||['Leader','Vice HOD','HOD'].includes(currentPersonnel()?.position)}
 function workPerformanceToday(){const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Jakarta',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()),get=k=>parts.find(p=>p.type===k).value;return get('year')+'-'+get('month')+'-'+get('day')}
 function workPerformancePeriod(preset,today=workPerformanceToday()){const date=new Date(today+'T00:00:00Z'),iso=d=>d.toISOString().slice(0,10);if(preset==='year')return {from:today.slice(0,4)+'-01-01',to:today};if(preset==='month')return {from:iso(new Date(Date.UTC(date.getUTCFullYear(),date.getUTCMonth(),1))),to:today};date.setUTCDate(date.getUTCDate()-((date.getUTCDay()+6)%7));return {from:iso(date),to:today}}
 
@@ -9,7 +10,7 @@ let teamWeightPage=1,teamWeightSort='completedWeight',teamWeightDirection='desc'
 function teamTaskViewSwitcher(){return ''}
 
 function teamWeightSource(){
- const ids=admin()?new Set(state.personnel.map(p=>p.personnel_id)):new Set([...subordinatePersonnelIds(),me?.personnel_id].filter(Boolean)),people=state.personnel.filter(person=>ids.has(person.personnel_id)),types=new Map(state.taskTypes.map(type=>[type.task_type_id,type])),projects=new Map(state.projects.map(project=>[project.project_id,project])),folders=new Map(state.folders.map(folder=>[folder.folder_id,folder]));
+ const position=currentPersonnel()?.position,ids=admin()||['HOD','Vice HOD'].includes(position)?new Set(state.personnel.map(p=>p.personnel_id)):position==='Leader'?subordinatePersonnelIds():new Set(),people=state.personnel.filter(person=>ids.has(person.personnel_id)),types=new Map(state.taskTypes.map(type=>[type.task_type_id,type])),projects=new Map(state.projects.map(project=>[project.project_id,project])),folders=new Map(state.folders.map(folder=>[folder.folder_id,folder]));
  const finite=value=>value==null||!Number.isFinite(Number(value))?null:Number(value),entries=[];
  for(const task of state.tasks){
   const pic=task.status==='Done'?(task.completed_by_personnel_id||task.assigned_personnel_id):task.assigned_personnel_id;
@@ -70,6 +71,7 @@ function renderTeamWeightDetails(summary){
 }
 
 function renderTeamWeightSummary(){
+ if(!canViewWorkPerformance())return '<div class="card empty">You do not have access to Work Performance.</div>';
  const source=teamWeightSource(),options=teamWeightFilterOptions(source),summary=buildTeamWeightSummary(source.people,source.entries,teamWeightFilters),totals=summary.totals,percent=x=>x===null?'—':x.toFixed(1)+'%';
  const columnValue=row=>teamWeightSort==='name'?row.person.personnel_name:teamWeightSort==='department'?row.person.department||'':row[teamWeightSort]??-1;
  summary.rows.sort((a,b)=>{const left=columnValue(a),right=columnValue(b),comparison=typeof left==='number'?left-right:String(left).localeCompare(String(right),undefined,{sensitivity:'base'});return comparison*(teamWeightDirection==='asc'?1:-1)||a.person.personnel_name.localeCompare(b.person.personnel_name)});

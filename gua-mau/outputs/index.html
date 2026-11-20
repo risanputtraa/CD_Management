@@ -1710,6 +1710,15 @@ html[data-theme="dark"] #content .task-page-jump input{background:#102031;color:
 #content [data-pin-task-columns] [data-task-pin="edge"]{box-shadow:2px 0 0 rgba(94,123,152,.38)}
 }
 </style>
+<style>
+.task-datetime-editor{display:inline-flex;position:relative;vertical-align:middle;max-width:100%}
+#content .task-datetime-editor .task-time-inline[type="text"]{padding-right:27px}
+#content .task-datetime-editor .task-time-inline[hidden]{display:none!important}
+#content .task-datetime-calendar{position:absolute;right:3px;top:0;width:23px;height:100%;padding:0;border:0;background:transparent;color:transparent}
+.task-datetime-calendar::-webkit-datetime-edit{display:none}
+.task-datetime-calendar::-webkit-calendar-picker-indicator{margin:0;padding:3px;cursor:pointer}
+html[data-theme="dark"] .task-datetime-calendar{color-scheme:dark}
+</style>
 </head><body>
 <div id="authScreen" class="auth-screen"><form class="auth-card" id="authForm"><div class="brand"><img class="brand-logo" src="/content-developer-logo.png?v=20261110-blue-cd" alt="Content Developer"><span class="brand-name"><span class="brand-name-line">Content Developer</span><span class="brand-name-line">Division</span></span></div><h1 id="authTitle">Sign in</h1><p id="authText">Sign in to view the team workspace.</p><div id="authFields" class="form-grid"></div><div class="modal-actions"><button class="btn primary" type="submit" id="authSubmit">Sign in</button></div></form></div>
 <div id="app" class="app hidden"><aside class="sidebar"><div class="brand"><img class="brand-logo" src="/content-developer-logo.png?v=20261110-blue-cd" alt="Content Developer"><span class="brand-name"><span class="brand-name-line">Content Developer</span><span class="brand-name-line">Division</span></span></div><nav id="nav" class="nav"></nav><div class="side-project"><label>ACTIVE PROJECT</label><select id="projectPick"></select></div><div class="section-label" style="padding:0 8px">FOLDERS</div><div id="tree" class="tree"></div><div class="side-actions"><button id="newFolder">＋ Folder</button><button id="copyFolder">▣ Copy</button></div><div class="side-note"><b>Shared database</b>Changes are saved on the host computer and shared across the local network.</div><span id="appVersion" class="app-version" title="Application build running on this server">Version Loading…</span></aside><main class="main"><header class="top"><div class="crumb">Workspace / <b id="crumb">Dashboard</b></div><div class="userbox"><div class="notification-wrap"><button type="button" class="notification-button" data-notifications-toggle aria-label="Open notifications"><img class="notification-icon" src="/notification-robot.png?v=4" alt=""><b data-notification-count>0</b></button><div class="notification-panel" id="notificationPanel" hidden></div></div><div class="account-menu-wrap"><button type="button" id="userAvatar" class="avatar account-avatar" aria-haspopup="true" aria-expanded="false" aria-label="Open account menu">RP</button><div id="accountMenu" class="account-menu" hidden><div class="account-menu-user"><strong id="accountMenuName"></strong><small id="accountMenuMeta"></small></div><button type="button" id="profileSettingsMenu">Settings</button><button type="button" id="changePasswordMenu">Change Password</button><button type="button" id="logout">Log out</button></div></div></div></header><section class="hero"><div><div class="eyebrow">TEAM MONITORING</div><h1 id="pageTitle">Dashboard</h1><p id="pageSubtitle"></p></div><div id="heroActions" class="actions"></div></section><section id="content"></section></main></div>
@@ -2539,6 +2548,80 @@ let pending=false;function schedule(){if(pending)return;pending=true;queueMicrot
   }
   new MutationObserver(observeTable).observe(content,{childList:true,subtree:true});
   observeTable();
+})();
+</script>
+<script>
+(()=>{
+  const selector='input.task-time-inline[type="datetime-local"]';
+  function parseTaskDateTime(text,current){
+    text=text.trim();
+    if(!text)return '';
+    const full=/^(\d{1,2})\/(\d{1,2})\/(\d{4})\s+(.+)$/.exec(text);
+    const date=full?full[3]+'-'+full[2].padStart(2,'0')+'-'+full[1].padStart(2,'0'):current.slice(0,10);
+    const time=/^(\d{1,2}):(\d{2})$|^(\d{2})(\d{2})$/.exec(full?full[4]:text);
+    if(!time||!date)return null;
+    const hour=Number(time[1]||time[3]),minute=Number(time[2]||time[4]);
+    const day=new Date(date+'T00:00:00Z');
+    if(!Number.isFinite(+day)||day.toISOString().slice(0,10)!==date||hour>23||minute>59)return null;
+    return date+'T'+String(hour).padStart(2,'0')+':'+String(minute).padStart(2,'0');
+  }
+  function upgrade(native){
+    if(native.hidden)return;
+    const wrap=document.createElement('span');
+    wrap.className='task-datetime-editor';
+    const text=document.createElement('input');
+    text.type='text';
+    text.className='task-time-inline';
+    text.placeholder='dd/mm/yyyy HH:mm';
+    text.autocomplete='off';
+    const label=native.getAttribute('aria-label')||'Task date and time';
+    text.setAttribute('aria-label',label+' (DD/MM/YYYY HH:mm)');
+    const date=document.createElement('input');
+    date.type='datetime-local';
+    date.className='task-datetime-calendar';
+    date.setAttribute('aria-label','Choose date and time for '+label.toLowerCase());
+    function refresh(){
+      const [day,time]=native.value.split('T');
+      text.value=day?day.split('-').reverse().join('/')+' '+time.slice(0,5):'';
+      date.value=native.value;
+      text.setCustomValidity('');
+    }
+    function commit(value){
+      const previous=native.value;
+      native.value=value;
+      refresh();
+      if(native.value!==previous)native.dispatchEvent(new Event('change',{bubbles:true}));
+    }
+    text.addEventListener('input',()=>text.setCustomValidity(''));
+    text.addEventListener('keydown',event=>{
+      if(event.isComposing||!['Enter','Escape'].includes(event.key))return;
+      event.preventDefault();
+      if(event.key==='Escape'){refresh();return}
+      const value=parseTaskDateTime(text.value,native.value);
+      if(value===null){
+        text.setCustomValidity(native.value?'Enter a valid time, for example 14:30 or 1430.':'Enter a date and time, for example 18/11/2026 14:30.');
+        text.reportValidity();
+        return;
+      }
+      commit(value);
+    });
+    date.addEventListener('change',()=>{
+      commit(date.value);
+    });
+    native.before(wrap);
+    wrap.append(text,date,native);
+    native.hidden=true;
+    refresh();
+  }
+  function prepare(root){
+    if(root.matches?.(selector))upgrade(root);
+    for(const input of root.querySelectorAll?.(selector)||[])upgrade(input);
+  }
+  const content=document.getElementById('content');
+  new MutationObserver(records=>{
+    for(const record of records)for(const node of record.addedNodes)if(node.nodeType===1)prepare(node);
+  }).observe(content,{childList:true,subtree:true});
+  prepare(content);
 })();
 </script>
 </body></html>
